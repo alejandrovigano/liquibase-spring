@@ -1,0 +1,144 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128564",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "promocion_bancaria",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Promocion Adhesion Billetera"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ADH_BILLEETERA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-12-07 19:41:51"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "promocion_bancaria",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Promocion Compra con TodoPago"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "COM_TODOPAGO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-12-07 19:41:51"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "promocion_bancaria",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Promocion Compra con Billetera"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "COM_BILLETERA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-12-07 19:41:51"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

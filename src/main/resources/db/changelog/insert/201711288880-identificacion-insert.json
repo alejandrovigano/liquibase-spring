@@ -1,0 +1,279 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128888",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "identificacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Libreta de Enrolamiento"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "LE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "identificacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Cedula de Identidad"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CI"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "identificacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Documento Unico"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DU"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "identificacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Documento Nacional de Identidad"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DNI"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "identificacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Pasaporte"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PAS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "identificacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Libreta Civica"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "LC"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

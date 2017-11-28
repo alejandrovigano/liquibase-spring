@@ -1,0 +1,189 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "2017112868",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Mes/es"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_MES"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Minuto/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_MINUTO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Hora/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_HORA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Dia/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_DIA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

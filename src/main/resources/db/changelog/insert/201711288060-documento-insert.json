@@ -1,0 +1,459 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128806",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Constancia Aceptacion TyC"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_ACEPT_TYC"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Acta de designacion de autoridades o del poder firmante "
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_ACTA_EMPR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Certificado Exclusion AFIP"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_EXCL_AFIP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Constancia Inscripcion IIBB"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_INSCR_IIBB"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Comprobante Inscripcion AFIP"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_INSCR_AFIP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Certificado de exencion IIBB"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_EXENC_IIBB"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Certificado Exclusion IIBB"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_EXCL_IIBB"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Estatuto de la empresa o Documento de constitucion"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_ESTATUTO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Otros"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_OTROS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "documento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Documento de Identidad"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOC_IDENTIDAD"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

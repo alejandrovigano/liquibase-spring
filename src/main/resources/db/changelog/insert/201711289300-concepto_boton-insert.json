@@ -1,0 +1,234 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "2017112893",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "concepto_boton",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Venta"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CPTO_BTN_VTA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "concepto_boton",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Ajuste por contracargo"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CPTO_BTN_AJ_CTGO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "concepto_boton",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Validacion medio de pago"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CPTO_BTN_VAL_MP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-04-10 09:51:43"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "concepto_boton",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Boton Robot"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CPTO_BTN_ROBOT"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-11-18 15:43:19"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "concepto_boton",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Boton P2P"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CPTO_BTN_P2P"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-07-25 11:23:03"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

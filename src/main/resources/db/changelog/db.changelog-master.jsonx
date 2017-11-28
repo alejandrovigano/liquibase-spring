@@ -1,0 +1,1637 @@
+{
+    "databaseChangeLog": [
+        {
+            "changeSet": {
+                "id": "20171128621",
+                "author": "incluit",
+                "changes": [
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Activo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Documento de Identidad"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "TodoPago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Terminos y condiciones PEI"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Promocion compra con billetera"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Dia/s"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Funcion usada en el backend"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Funcion usada en el frontend"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Boton P2P"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Perfil Todo Pago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Monto Transaccion - Cargos"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Aplic. IIBB Vend"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Boton Robot"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Cuenta Corriente"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Volumen de venta total por promocion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Volumen de venta total por cuenta"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Solicitar Doble Factor de Autenticacion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Transferencia1"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Formato PNG"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Habilita Cashout automatico"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Devolucion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Cashout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Venta"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Hora/s"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Cargo mas IVA"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Cargo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Transaccion en un pago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Boton para eMail"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Profesional"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Cedula de Identidad"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Acta de designacion de autoridades o del poder firmante "
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Certificado Exclusion AFIP"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Convenio Multilateral"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "No alcanzado"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "No Inscripto"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Exento"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Monotributo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Regimen Simplificado"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Contribuyente Local"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Exento"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Constancia Inscripcion IIBB"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Comprobante Inscripcion AFIP"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Certificado Exclusion IIBB"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Certificado de exencion IIBB"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Estatuto de la empresa o Documento de constitucion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Otros"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Pasaporte"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Documento unico"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Libreta Civica"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Particular"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Legal"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Empresa"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Boton para Sitio web"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Facturacion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Boton para Red social"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "No Inmediata"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Inmediata"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Transaccion en cuotas"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Saldo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "No Aplica"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Fijo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Porcentaje"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Minuto/s"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Mes/es"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Dia/s"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Ajuste por contracargo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Fiscal"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Riesgos"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Alerta y Rechazo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Venta "
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Alerta"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Credito"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Contracargo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Debito"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Proceso"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Manual"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Automatico"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Devolucion sin saldo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Formato PDF"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Formato JPG"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Pedido de Informacion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Cashout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Contracargo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Factura"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Validacion medio de pago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Compras"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Rango de cuotas"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Volumen de venta mensual por cuenta"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Proceso de correccion de Saldos"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Validacion de medio de pago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Caja de Ahorro"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Carta Bancaria de CUIT Condicionado"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Terminos y Condiciones para el vendedor"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Terminos y Condiciones para el comprador"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Aplic. IIBB Comp"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Monto Transaccion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Monto Cargos"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Impuesto No Acumulable"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Impuesto Acumulable por Ciclo"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Ajuste"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Perfil creado por la cuenta"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Usuario titular de la cuenta"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Usuario adicional de la cuenta"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Envio P2P"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Solicitud P2P"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Funcion usada en ambos"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Antiguedad de dias a borrar"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Promocion de 1ra Compra con Billetera"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Antiguedad de meses a borrar"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Mes/es"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Promocion Compra con Billetera"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Promocion Adhesion Billetera"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Promocion Compra con TodoPago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Terminos y condiciones comprador"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Terminos y condiciones vendedor"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Terminos y condiciones Split"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Libreta de Enrolamiento"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Terminos y condiciones Generales"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Boton para venta telefonica"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Documento Nacional de Identidad"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Antiguedad de ejecuciones a borrar"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Promocion adhesion Medio de Pago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Constancia Aceptacion TyC"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Ano/s"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "insert": {
+                            "tableName": "prueba1",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "descripcion",
+                                        "value": "Consumidor Final"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

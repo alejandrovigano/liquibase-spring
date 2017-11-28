@@ -1,0 +1,54 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128367",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "documento_respaldo_venta",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Factura"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DISP_DOC_FACTURA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-12 13:58:45"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

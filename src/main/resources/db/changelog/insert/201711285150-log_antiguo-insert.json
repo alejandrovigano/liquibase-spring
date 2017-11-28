@@ -1,0 +1,144 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128515",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "log_antiguo",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Antiguedad de ejecuciones a borrar"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ANT_EJEC"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-07-25 10:56:15"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "log_antiguo",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Antiguedad de dias a borrar"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ANT_DIAS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-07-25 10:56:15"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "log_antiguo",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Antiguedad de meses a borrar"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ANT_MESES"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-07-25 10:56:15"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

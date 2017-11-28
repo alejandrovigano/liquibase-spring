@@ -1,0 +1,234 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128578",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "tyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Terminos y condiciones Generales"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_GRALES"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-10-10 11:01:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Terminos y condiciones Split"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_SPLIT"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-10-09 12:49:22"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Terminos y condiciones vendedor"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_VEND"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-10-09 12:45:48"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Terminos y condiciones PEI"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_PEI"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-10-09 12:49:47"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Terminos y condiciones comprador"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_COMP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-10-09 12:45:33"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

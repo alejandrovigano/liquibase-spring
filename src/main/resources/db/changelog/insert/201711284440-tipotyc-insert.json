@@ -1,0 +1,99 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128444",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "tipotyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Terminos y Condiciones para el vendedor"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_VENDEDOR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-01-29 15:27:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tipotyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Terminos y Condiciones para el comprador"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_COMPRADOR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-01-29 15:27:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

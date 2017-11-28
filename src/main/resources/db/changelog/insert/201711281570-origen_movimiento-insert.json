@@ -1,0 +1,324 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128157",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "origen_movimiento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Validacion de medio de pago"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ORIG_VAL_MP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-10-01 18:30:49"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "origen_movimiento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Contracargo"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ORIG_CTCGO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "origen_movimiento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Devolucion"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ORIG_DEV"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "origen_movimiento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Proceso"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ORIG_PROCESO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "origen_movimiento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Cashout"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ORIG_CASHOUT"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-12-11 17:55:01"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "origen_movimiento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Proceso de correccion de Saldos"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ORIG_CORR_SALDO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-09-07 18:50:02"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "origen_movimiento",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Ajuste"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "ORIG_AJUSTE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-03-21 10:36:22"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

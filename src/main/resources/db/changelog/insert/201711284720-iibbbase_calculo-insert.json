@@ -1,0 +1,144 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128472",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "iibbbase_calculo",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Monto Cargos"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CARGOS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-02-24 00:00:00"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "iibbbase_calculo",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Monto Transaccion - Cargos"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MONTO_TX_SIN_CARGOS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-02-24 00:00:00"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "iibbbase_calculo",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Monto Transaccion"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MONTO_TX"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-02-24 00:00:00"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,144 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128132",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "accion_limite",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Alerta y Rechazo"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "LIM_ACT_RECHAZO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "accion_limite",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Alerta"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "LIM_ACT_ALERTA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "accion_limite",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Solicitar Doble Factor de Autenticacion"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "LIM_ACT_DFACTOR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-09-14 10:33:21"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

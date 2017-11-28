@@ -29,12 +29,20 @@ dependencies {
 
     // JPA Data (We are going to use Repositories, Entities, Hibernate, etc...)
     compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+	
+	//data rest
+    compile 'org.springframework.data:spring-data-rest-webmvc'
+    compile 'org.springframework.data:spring-data-rest-hal-browser'
+
 
     // Use MySQL Connector-J
     compile 'mysql:mysql-connector-java'
 
 	// Liquibase
 	compile 'org.liquibase:liquibase-core'
+	
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
+	compile group: 'commons-io', name: 'commons-io', version: '2.4'
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

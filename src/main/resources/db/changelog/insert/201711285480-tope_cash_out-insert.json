@@ -1,0 +1,144 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171128548",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "tope_cash_out",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Dia/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TOPE_CASHOUT_DIA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-08-12 14:57:39"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tope_cash_out",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Mes/es"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TOPE_CASHOUT_MES"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-08-12 14:57:39"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tope_cash_out",
+          "columns" : [ {
+            "column" : {
+              "name" : "descripcion",
+              "value" : "Ano/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TOPE_CASHOUT_ANIO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-08-12 14:57:39"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "isActive",
+              "value" : "true"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}
