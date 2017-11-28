@@ -1,0 +1,25 @@
+{
+   "databaseChangeLog":[
+      {
+         "changeSet":{
+            "id":"1",
+            "author":"incluit",
+            "changes":[
+               {
+                  "insert":{
+                  "tableName": "tabla1",
+                     "columns":[
+                        {
+                           "column":{
+                              "name":"columna1",
+                              "value":"valor1"
+                           }
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
