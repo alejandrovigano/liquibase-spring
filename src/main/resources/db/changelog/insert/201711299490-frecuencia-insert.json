@@ -1,0 +1,209 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129949",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Hora/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_HORA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Minuto/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_MINUTO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "D\u00EDa/s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_DIA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "frecuencia",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Mes/es"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FREC_MES"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

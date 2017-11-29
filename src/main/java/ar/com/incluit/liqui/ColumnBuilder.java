@@ -27,7 +27,7 @@ public class ColumnBuilder {
 		columnas.add(obtenerColumna("description", tipo.getDescripcion()));
 		columnas.add(obtenerColumna("code", tipo.getCodigo()));
 		columnas.add(obtenerColumna("create_date", tipo.getFechaAlta()));
-		columnas.add(obtenerColumna("modify_date", tipo.getFechaModificacion()));
+		columnas.add(obtenerColumna("modify_date", tipo.getFechaModificacion() != null ? tipo.getFechaModificacion() : tipo.getFechaAlta()));
 		columnas.add(obtenerColumna("create_user", tipo.getUsuarioAlta()));
 		columnas.add(obtenerColumna("modify_user", tipo.getUsuarioModificacion()));
 		columnas.add(obtenerColumna("version", tipo.getVersion()));

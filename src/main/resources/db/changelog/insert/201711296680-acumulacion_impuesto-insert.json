@@ -1,0 +1,109 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129668",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "acumulacion_impuesto",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Impuesto No Acumulable"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "NO ACUMULA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-02-24 00:00:00"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-02-24 00:00:00"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "acumulacion_impuesto",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Impuesto Acumulable por Ciclo"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "POR_CICLO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-02-24 00:00:00"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-02-24 00:00:00"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}
