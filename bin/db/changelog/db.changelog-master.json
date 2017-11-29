@@ -3,192 +3,192 @@
     "comment" : "Comentario"
   }, {
     "include" : {
-      "file" : "insert/201711284660-ivacondicion-insert.json",
+      "file" : "insert/201711298300-ivacondicion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711287560-iibbcondicion-insert.json",
+      "file" : "insert/201711292460-iibbcondicion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711288060-documento-insert.json",
+      "file" : "insert/201711292890-documento-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711288880-identificacion-insert.json",
+      "file" : "insert/201711293450-identificacion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711289570-cuenta-insert.json",
+      "file" : "insert/201711294180-cuenta-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711289730-domicilio-insert.json",
+      "file" : "insert/201711294850-domicilio-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711289930-boton-insert.json",
+      "file" : "insert/201711295290-boton-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281100-acreditacion-insert.json",
+      "file" : "insert/201711295740-acreditacion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711283200-base_calculo_cargos-insert.json",
+      "file" : "insert/201711296150-base_calculo_cargos-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285400-aplicacion_cargos-insert.json",
+      "file" : "insert/201711296550-aplicacion_cargos-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711286800-frecuencia-insert.json",
+      "file" : "insert/201711296840-frecuencia-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711289300-concepto_boton-insert.json",
+      "file" : "insert/201711297180-concepto_boton-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281070-limite-insert.json",
+      "file" : "insert/201711297520-limite-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281170-aplicacion_limite-insert.json",
+      "file" : "insert/201711297820-aplicacion_limite-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281320-accion_limite-insert.json",
+      "file" : "insert/201711298080-accion_limite-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281440-tipo_movimiento-insert.json",
+      "file" : "insert/201711298590-tipo_movimiento-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281570-origen_movimiento-insert.json",
+      "file" : "insert/201711299000-origen_movimiento-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281720-cash_out-insert.json",
+      "file" : "insert/201711299230-cash_out-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281850-regla_operacion-insert.json",
+      "file" : "insert/201711292100-regla_operacion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711281960-formato_documento-insert.json",
+      "file" : "insert/201711295700-formato_documento-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711282800-origen_disputa-insert.json",
+      "file" : "insert/201711291040-origen_disputa-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711283670-documento_respaldo_venta-insert.json",
+      "file" : "insert/201711291440-documento_respaldo_venta-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711283900-novedad-insert.json",
+      "file" : "insert/201711291980-novedad-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284060-aplicacion_promocion-insert.json",
+      "file" : "insert/201711292580-aplicacion_promocion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284170-cuenta_bancaria-insert.json",
+      "file" : "insert/201711298100-cuenta_bancaria-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284310-documento_respaldo_base_condicionada-insert.json",
+      "file" : "insert/201711298440-documento_respaldo_base_condicionada-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284440-tipotyc-insert.json",
+      "file" : "insert/201711298740-tipotyc-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284600-iibbaplicacion-insert.json",
+      "file" : "insert/201711298930-iibbaplicacion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284720-iibbbase_calculo-insert.json",
+      "file" : "insert/201711299200-iibbbase_calculo-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284810-acumulacion_impuesto-insert.json",
+      "file" : "insert/201711299520-acumulacion_impuesto-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711284960-perfil-insert.json",
+      "file" : "insert/201711299760-perfil-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285060-usuario-insert.json",
+      "file" : "insert/201711299980-usuario-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285150-log_antiguo-insert.json",
+      "file" : "insert/201711292200-log_antiguo-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285240-funcion-insert.json",
+      "file" : "insert/201711297100-funcion-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285320-promocion_comprador-insert.json",
+      "file" : "insert/201711299800-promocion_comprador-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285480-tope_cash_out-insert.json",
+      "file" : "insert/201711291250-tope_cash_out-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285640-promocion_bancaria-insert.json",
+      "file" : "insert/201711291580-promocion_bancaria-insert.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "insert/201711285780-tyc-insert.json",
+      "file" : "insert/201711291940-tyc-insert.json",
       "relativeToChangelogFile" : true
     }
   } ]

@@ -1,6 +1,5 @@
 package ar.com.incluit.liqui;
 
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -16,7 +15,7 @@ public class ChangeLogJsonBuilder {
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.setSerializationInclusion(Include.NON_NULL);
 
-		return StringUtils.stripAccents(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(liqui));
+		return mapper.writerWithDefaultPrettyPrinter().writeValueAsString(liqui);
 	}
 
 }

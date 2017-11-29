@@ -1,0 +1,209 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129258",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "aplicacion_promocion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Volumen de venta mensual por cuenta"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PROMO_VTA_MES_CTA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-08-25 09:39:42"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "aplicacion_promocion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Rango de cuotas"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PROMO_CTAS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-08-25 09:39:42"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "aplicacion_promocion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Volumen de venta total por promoci\u00F3n"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PROMO_VTA_TOTAL"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-08-25 09:39:42"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "aplicacion_promocion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Volumen de venta total por cuenta"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PROMO_VTA_TOTAL_CTA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-08-25 09:39:42"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

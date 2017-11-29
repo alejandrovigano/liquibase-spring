@@ -1,0 +1,109 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129104",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "origen_disputa",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Contracargo"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DISP_ORIGEN_CTCGO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-12 13:58:45"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "origen_disputa",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Pedido de Informaci\u00F3n"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DISP_ORIGEN_INFO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-12 13:58:45"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

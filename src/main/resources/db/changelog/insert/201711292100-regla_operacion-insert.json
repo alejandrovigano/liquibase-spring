@@ -1,0 +1,109 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "2017112921",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "regla_operacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Devoluci\u00F3n sin saldo"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "RGOP_DEV_DEUDOR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "regla_operacion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Habilita Cashout autom\u00E1tico"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "RGOP_CO_AUTO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

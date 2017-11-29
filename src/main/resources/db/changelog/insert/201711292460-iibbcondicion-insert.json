@@ -1,0 +1,209 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129246",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "iibbcondicion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Convenio Multilateral"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "IIBB_CONV_MULT"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "iibbcondicion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "R\u00E9gimen Simplificado"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "IIBB_REG_SIMP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "iibbcondicion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Contribuyente Local"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "IIBB_CONTR_LOCAL"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "iibbcondicion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Exento"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "IIBB_EXENTO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

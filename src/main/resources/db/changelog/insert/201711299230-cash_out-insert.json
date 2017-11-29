@@ -1,0 +1,109 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129923",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "cash_out",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Manual"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CASHOUT_MANUAL"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "cash_out",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Autom\u00E1tico"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CASHOUT_AUTO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

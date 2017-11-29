@@ -26,12 +26,14 @@ public class InsertBuilder {
 
 		List<Insert> inserts = new ArrayList<>();
 
+		int i = 0;
 		for (Tipo tipo : tipos) {
 			Insert insert = new Insert();
 			insert.setTableName(tableResolver.obtenerTabla(tipo.getGrupoTipo()));
-			insert.setColumns(columnBuilder.obtenerColumns(tipo));
+			insert.setColumns(columnBuilder.obtenerColumns(tipo, i));
 
 			inserts.add(insert);
+			i++;
 		}
 		return inserts;
 	}

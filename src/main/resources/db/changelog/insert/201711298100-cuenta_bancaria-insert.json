@@ -1,0 +1,109 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129810",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "cuenta_bancaria",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Cuenta Corriente"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CTA_CTE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-10-13 14:56:10"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "cuenta_bancaria",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Caja de Ahorro"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CAJA_AHORRO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-10-13 14:56:10"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

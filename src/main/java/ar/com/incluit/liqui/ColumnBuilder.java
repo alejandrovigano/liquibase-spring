@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.lang3.StringEscapeUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -19,23 +20,24 @@ public class ColumnBuilder {
 	@Value("${dateFormat}")
 	private String dateFormat;
 
-	public List<Column> obtenerColumns(Tipo tipo) {
+	public List<Column> obtenerColumns(Tipo tipo, int i) {
 		List<Column> columnas = new ArrayList<>();
 
-		columnas.add(obtenerColumna("descripcion", tipo.getDescripcion()));
+		columnas.add(obtenerColumna("id", i)); // TODO VER
+		columnas.add(obtenerColumna("description", tipo.getDescripcion()));
 		columnas.add(obtenerColumna("code", tipo.getCodigo()));
 		columnas.add(obtenerColumna("create_date", tipo.getFechaAlta()));
 		columnas.add(obtenerColumna("modify_date", tipo.getFechaModificacion()));
 		columnas.add(obtenerColumna("create_user", tipo.getUsuarioAlta()));
 		columnas.add(obtenerColumna("modify_user", tipo.getUsuarioModificacion()));
 		columnas.add(obtenerColumna("version", tipo.getVersion()));
-		columnas.add(obtenerColumna("isActive", true)); // TODO VER
+		columnas.add(obtenerColumna("is_active", true)); // TODO VER
 
 		return columnas;
 	}
 
 	private Column obtenerColumna(String name, boolean value) {
-		return buildColumn(name, String.valueOf(value));
+		return buildColumn(name, value);
 	}
 
 	private Column obtenerColumna(String name, Integer value) {
@@ -54,10 +56,19 @@ public class ColumnBuilder {
 		Column column = new Column();
 		ValueColumn valueColumn = new ValueColumn();
 		valueColumn.setName(name);
-		valueColumn.setValue(value);
+		valueColumn.setValue(StringEscapeUtils.escapeJava(value));
 		column.setColumn(valueColumn);
 
 		return column;
 	}
 
+	private Column buildColumn(String name, Boolean value) {
+		Column column = new Column();
+		ValueColumn valueColumn = new ValueColumn();
+		valueColumn.setName(name);
+		valueColumn.setValueBoolean(value);
+		column.setColumn(valueColumn);
+
+		return column;
+	}
 }

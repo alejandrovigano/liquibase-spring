@@ -1,0 +1,109 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171129874",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "tipotyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Terminos y Condiciones para el vendedor"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_VENDEDOR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-01-29 15:27:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "tipotyc",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Terminos y Condiciones para el comprador"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TYC_COMPRADOR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-01-29 15:27:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

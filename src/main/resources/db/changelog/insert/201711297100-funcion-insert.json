@@ -1,0 +1,159 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "2017112971",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "funcion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Funcion usada en el frontend"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FUNCION_FRONTEND"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-06-29 14:47:19"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "funcion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Funcion usada en ambos"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FUNCION_BACK_FRONT"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-06-29 14:47:19"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "funcion",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Funcion usada en el backend"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FUNCION_BACKEND"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-06-29 14:47:19"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}
