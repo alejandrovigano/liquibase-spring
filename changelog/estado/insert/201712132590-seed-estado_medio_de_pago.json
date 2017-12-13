@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213168",
+      "id" : "20171213259",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_cbu",
+          "tableName" : "estado_medio_de_pago",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cambio de CBU anulado"
+              "value" : "Medio de Pago proveniente de una PreAccount"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CBU_ANULADO"
+              "value" : "MP_PRE_ACCOUNT"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-12-21 12:11:12"
+              "value" : "2017-11-10 14:30:07"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-12-21 12:11:12"
+              "value" : "2017-11-10 14:30:07"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cbu",
+          "tableName" : "estado_medio_de_pago",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "CBU pendiente de habilitar"
+              "value" : "Medio de pago pendiente de habilitacion"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CBU_PEND-HABILITAR"
+              "value" : "MP_PEND_HABILITAR"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cbu",
+          "tableName" : "estado_medio_de_pago",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "CBU Habilitado para operar"
+              "value" : "Medio de pago habilitado para operar"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CBU_HABILITADO"
+              "value" : "MP_HABILITADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cbu",
+          "tableName" : "estado_medio_de_pago",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,22 +168,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "CBU dado de baja"
+              "value" : "Medio de pago Vencido"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CBU_BAJA"
+              "value" : "MP_VENCIDO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:18"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:18"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
@@ -209,7 +209,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cbu",
+          "tableName" : "estado_medio_de_pago",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -219,22 +219,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "CBU pre enrolado"
+              "value" : "Medio de pago pre enrolado."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CBU_PRE_ENROLADO"
+              "value" : "MP_PRE_ENROLADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:18"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:18"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
@@ -260,7 +260,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cbu",
+          "tableName" : "estado_medio_de_pago",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -270,175 +270,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "CBU pendiente de verificaci\\u00F3n de riesgos"
+              "value" : "Mediode pago dado de baja."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CBU_REVISION"
+              "value" : "MP_BAJA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-12-21 12:11:12"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-12-21 12:11:12"
-            }
-          }, {
-            "column" : {
-              "name" : "create_user",
-              "value" : "Script"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_user",
-              "value" : "null"
-            }
-          }, {
-            "column" : {
-              "name" : "version",
-              "value" : "0"
-            }
-          }, {
-            "column" : {
-              "name" : "is_active",
-              "valueBoolean" : true
-            }
-          } ]
-        }
-      }, {
-        "insert" : {
-          "tableName" : "estado_cbu",
-          "schemaName" : "dbo",
-          "columns" : [ {
-            "column" : {
-              "name" : "id",
-              "value" : "6"
-            }
-          }, {
-            "column" : {
-              "name" : "description",
-              "value" : "Cambio de CBU rechazado"
-            }
-          }, {
-            "column" : {
-              "name" : "code",
-              "value" : "CBU_RECHAZADO"
-            }
-          }, {
-            "column" : {
-              "name" : "create_date",
-              "value" : "2015-12-21 12:11:12"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_date",
-              "value" : "2015-12-21 12:11:12"
-            }
-          }, {
-            "column" : {
-              "name" : "create_user",
-              "value" : "Script"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_user",
-              "value" : "null"
-            }
-          }, {
-            "column" : {
-              "name" : "version",
-              "value" : "0"
-            }
-          }, {
-            "column" : {
-              "name" : "is_active",
-              "valueBoolean" : true
-            }
-          } ]
-        }
-      }, {
-        "insert" : {
-          "tableName" : "estado_cbu",
-          "schemaName" : "dbo",
-          "columns" : [ {
-            "column" : {
-              "name" : "id",
-              "value" : "7"
-            }
-          }, {
-            "column" : {
-              "name" : "description",
-              "value" : "Cambio de CBU pendiente por excepci\\u00F3n"
-            }
-          }, {
-            "column" : {
-              "name" : "code",
-              "value" : "CBU_FORZADO_EXC"
-            }
-          }, {
-            "column" : {
-              "name" : "create_date",
-              "value" : "2015-12-21 12:11:12"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_date",
-              "value" : "2015-12-21 12:11:12"
-            }
-          }, {
-            "column" : {
-              "name" : "create_user",
-              "value" : "Script"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_user",
-              "value" : "null"
-            }
-          }, {
-            "column" : {
-              "name" : "version",
-              "value" : "0"
-            }
-          }, {
-            "column" : {
-              "name" : "is_active",
-              "valueBoolean" : true
-            }
-          } ]
-        }
-      }, {
-        "insert" : {
-          "tableName" : "estado_cbu",
-          "schemaName" : "dbo",
-          "columns" : [ {
-            "column" : {
-              "name" : "id",
-              "value" : "8"
-            }
-          }, {
-            "column" : {
-              "name" : "description",
-              "value" : "CBU creado previa validaci\\u00F3n de datos"
-            }
-          }, {
-            "column" : {
-              "name" : "code",
-              "value" : "CBU_CREADO"
-            }
-          }, {
-            "column" : {
-              "name" : "create_date",
-              "value" : "2015-12-21 12:11:12"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_date",
-              "value" : "2015-12-21 12:11:12"
+              "value" : "2015-03-11 12:55:35"
             }
           }, {
             "column" : {

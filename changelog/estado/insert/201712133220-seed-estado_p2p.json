@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213306",
+      "id" : "20171213322",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_documento",
+          "tableName" : "estado_p2p",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El documento ha sido revisado y es considerado v\\u00E1lido."
+              "value" : "Transacci\\u00F3n P2P Procesada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOC_APROBADO"
+              "value" : "P2P_ENVIO_PROCESADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-27 16:44:34"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-27 16:44:34"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documento",
+          "tableName" : "estado_p2p",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Documento pendiente de verificaci\\u00F3n"
+              "value" : "Transacci\\u00F3n P2P Disponible"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOC_PENDIENTE"
+              "value" : "P2P_ENVIO_DISPONIBLE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-27 16:44:34"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-27 16:44:34"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documento",
+          "tableName" : "estado_p2p",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El documento ha sido revisado y, si bien es requerido para completar el proceso de verificaci\\u00F3n, no puede aceptarse."
+              "value" : "Transacci\\u00F3n P2P Aprobada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOC_RECHAZADO"
+              "value" : "P2P_ENVIO_APROBADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-15 15:18:58"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-15 15:18:58"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documento",
+          "tableName" : "estado_p2p",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,22 +168,73 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El documento es irrelevante para verificar la condici\\u00F3n tributaria del vendedor."
+              "value" : "Transacci\\u00F3n P2P Pendiente"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOC_NO_APLICA"
+              "value" : "P2P_ENVIO_PENDIENTE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-15 15:18:58"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2016-07-15 15:18:58"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_p2p",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "4"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transacci\\u00F3n P2P Rechazada"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "P2P_ENVIO_RECHAZADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-07-15 15:18:58"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-07-15 15:18:58"
             }
           }, {
             "column" : {

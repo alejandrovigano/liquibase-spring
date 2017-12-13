@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213679",
+      "id" : "20171213290",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_txpei_aprobada",
+          "tableName" : "estado_promo_proceso",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transaccion de PEI rechazada"
+              "value" : "Se est\\u00E1n procesando las reglas de bonificaci\\u00F3n asociadas a la promoci\\u00F3n"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_RECHAZADA_PEI"
+              "value" : "RB_PROMO_EN_PROCESO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-12-28 13:00:00"
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-12-28 13:00:00"
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_txpei_aprobada",
+          "tableName" : "estado_promo_proceso",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,73 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transaccion de PEI aprobada"
+              "value" : "Error en el procesamiento de las reglas de bonificaci\\u00F3n"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_APROBADA_PEI"
+              "value" : "RB_PROMO_ERROR"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-12-28 13:00:00"
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-12-28 13:00:00"
+              "value" : "2015-06-16 11:00:18"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_promo_proceso",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Reglas de Bonificaci\\u00F3n procesadas exitosamente"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "RB_PROMO_PROCESADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-06-16 11:00:18"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {

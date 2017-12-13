@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213652",
+      "id" : "2017121364",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_ajuste",
+          "tableName" : "estado_transaccionbsa",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Se intent\\u00F3 aplicar el ajuste pero ocurri\\u00F3 un error inesperado"
+              "value" : "Transaccion de BSA con push del comercio por transaccion aprobada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "AJUSTE_PENDIENTE"
+              "value" : "BSA_TX_APROBADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-03-21 10:35:15"
+              "value" : "2016-09-06 15:38:38"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-03-21 10:35:15"
+              "value" : "2016-09-06 15:38:38"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_ajuste",
+          "tableName" : "estado_transaccionbsa",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El ajuste ha sido rechazado por el supervisor"
+              "value" : "Transaccion de BSA con push del comercio por transaccion rechazada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "AJUSTE_RECHAZADO"
+              "value" : "BSA_TX_RECHAZADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-07-28 17:13:21"
+              "value" : "2016-09-06 15:38:38"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-07-28 17:13:21"
+              "value" : "2016-09-06 15:38:38"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_ajuste",
+          "tableName" : "estado_transaccionbsa",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,73 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El ajuste se aplic\\u00F3 correctamente en la cuenta virtual"
+              "value" : "Transaccion de BSA luego del login del comprador en el formulario"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "AJUSTE_PROCESADO"
+              "value" : "BSA_TX_PROCESO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-03-21 10:35:15"
+              "value" : "2016-09-06 15:38:38"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-03-21 10:35:15"
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccionbsa",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion de BSA con pedido de SAR del comercio"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BSA_TX_INICIADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-09-06 15:38:38"
             }
           }, {
             "column" : {

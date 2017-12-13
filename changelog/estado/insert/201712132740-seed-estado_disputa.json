@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213277",
+      "id" : "20171213274",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_cambio_pendiente",
+          "tableName" : "estado_disputa",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El cambio ha sido revisado, aprobado e impactado."
+              "value" : "Disputa resuelta a favor del vendedor (No se aplica contracargo)."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CAMBIO_APROBADO"
+              "value" : "DISPUTA_APROBADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-02-13 13:28:34"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-02-13 13:28:34"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cambio_pendiente",
+          "tableName" : "estado_disputa",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cambio pendiente de verificaci\\u00F3n"
+              "value" : "Disputa pendiente de resoluci\\u00F3n"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CAMBIO_PENDIENTE"
+              "value" : "DISPUTA_PENDIENTE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-02-13 13:28:34"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-02-13 13:28:34"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cambio_pendiente",
+          "tableName" : "estado_disputa",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El cambio ha sido revisado y, si bien es requerido para completar el proceso de verificaci\\u00F3n, no puede aceptarse."
+              "value" : "Disputa resuelta contra el vendedor (Se aplica contracargo)."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CAMBIO_RECHAZADO"
+              "value" : "DISPUTA_RECHAZADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-02-13 13:28:34"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-02-13 13:28:34"
             }
           }, {
             "column" : {

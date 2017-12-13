@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213411",
+      "id" : "2017121310",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_medio_de_pago",
+          "tableName" : "estado_documentacion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Medio de Pago proveniente de una PreAccount"
+              "value" : "Se ha iniciado el proceso de verificaci\\u00F3n de la documentaci\\u00F3n (se ha validado correctamente alguno de los documentos presentados) pero a\\u00FAn quedan documentos pendientes de verificaci\\u00F3n."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MP_PRE_ACCOUNT"
+              "value" : "DOCS_EN_PROCESO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2017-11-10 14:30:07"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2017-11-10 14:30:07"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_medio_de_pago",
+          "tableName" : "estado_documentacion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Medio de pago pendiente de habilitacion"
+              "value" : "Documentaci\\u00F3n presentada pendiente de verificaci\\u00F3n"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MP_PEND_HABILITAR"
+              "value" : "DOCS_PENDIENTES"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_medio_de_pago",
+          "tableName" : "estado_documentacion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Medio de pago habilitado para operar"
+              "value" : "El vendedor ha presentado todos los documentos necesarios de acuerdo a su condici\\u00F3n tributaria y cada uno de ellos ha sido considerado Aprobado."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MP_HABILITADO"
+              "value" : "DOCS_APROBADOS"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -147,7 +147,7 @@
           }, {
             "column" : {
               "name" : "version",
-              "value" : "0"
+              "value" : "6"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_medio_de_pago",
+          "tableName" : "estado_documentacion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,22 +168,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Medio de pago Vencido"
+              "value" : "Se ha completado el proceso de verificaci\\u00F3n de la documentaci\\u00F3n pero alguno de los documentos presentados ha sido rechazado. Se requiere respuesta del vendedor"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MP_VENCIDO"
+              "value" : "DOCS_RECHAZADOS"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -209,7 +209,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_medio_de_pago",
+          "tableName" : "estado_documentacion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -219,22 +219,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Medio de pago pre enrolado."
+              "value" : "El vendedor no registra documentaci\\u00F3n presentada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MP_PRE_ENROLADO"
+              "value" : "DOCS_NO_PRESENTADOS"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -260,7 +260,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_medio_de_pago",
+          "tableName" : "estado_documentacion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -270,22 +270,73 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Mediode pago dado de baja."
+              "value" : "La situaci\\u00F3n tributaria del vendedor no requiere verificaci\\u00F3n de documentaci\\u00F3n."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MP_BAJA"
+              "value" : "DOCS_NO_APLICA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_documentacion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "6"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "No se puede proceder con la validaci\\u00F3n de la documentaci\\u00F3n por presentarse alg\\u00FAn dato pendiente de revisi\\u00F3n en Riesgos."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DOCS_PEND_REVISION"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {

@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213120",
+      "id" : "20171213241",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_documentacion",
+          "tableName" : "estado_transaccion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Se ha iniciado el proceso de verificaci\\u00F3n de la documentaci\\u00F3n (se ha validado correctamente alguno de los documentos presentados) pero a\\u00FAn quedan documentos pendientes de verificaci\\u00F3n."
+              "value" : "Transaccion liquidada/Retiro aprobado."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOCS_EN_PROCESO"
+              "value" : "TX_APROBADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documentacion",
+          "tableName" : "estado_transaccion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Documentaci\\u00F3n presentada pendiente de verificaci\\u00F3n"
+              "value" : "Para transacciones con cupon en efectivo, hasta presentaci\\u00F3n del MP o su vencimiento."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOCS_PENDIENTES"
+              "value" : "TX_PENDIENTE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documentacion",
+          "tableName" : "estado_transaccion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El vendedor ha presentado todos los documentos necesarios de acuerdo a su condici\\u00F3n tributaria y cada uno de ellos ha sido considerado Aprobado."
+              "value" : "Transaccion aprobada por el MP."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOCS_APROBADOS"
+              "value" : "TX_PROCESADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
@@ -147,7 +147,7 @@
           }, {
             "column" : {
               "name" : "version",
-              "value" : "6"
+              "value" : "0"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documentacion",
+          "tableName" : "estado_transaccion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,22 +168,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Se ha completado el proceso de verificaci\\u00F3n de la documentaci\\u00F3n pero alguno de los documentos presentados ha sido rechazado. Se requiere respuesta del vendedor"
+              "value" : "Para transacciones con cupon en efectivo."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOCS_RECHAZADOS"
+              "value" : "TX_VENCIDA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
@@ -209,7 +209,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documentacion",
+          "tableName" : "estado_transaccion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -219,22 +219,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El vendedor no registra documentaci\\u00F3n presentada"
+              "value" : "Transaccion denegada por el MP o rechazada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOCS_NO_PRESENTADOS"
+              "value" : "TX_RECHAZADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
@@ -260,7 +260,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documentacion",
+          "tableName" : "estado_transaccion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -270,22 +270,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "La situaci\\u00F3n tributaria del vendedor no requiere verificaci\\u00F3n de documentaci\\u00F3n."
+              "value" : "Transaccion disponible/Ajuste disponible."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOCS_NO_APLICA"
+              "value" : "TX_DISPONIBLE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2014-12-16 11:42:52"
             }
           }, {
             "column" : {
@@ -311,7 +311,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_documentacion",
+          "tableName" : "estado_transaccion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -321,22 +321,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "No se puede proceder con la validaci\\u00F3n de la documentaci\\u00F3n por presentarse alg\\u00FAn dato pendiente de revisi\\u00F3n en Riesgos."
+              "value" : "Transaccion con Contracarga Aprobada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "DOCS_PEND_REVISION"
+              "value" : "TX_CONTRACARGADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-05-15 16:32:23"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-05-15 16:32:23"
             }
           }, {
             "column" : {

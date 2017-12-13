@@ -97,10 +97,12 @@ public class LiquiController {
 			List<Insert> inserts = insertBuilder.buildInserts(tipos);
 			LiquiChangelog liqui = liquiChangeLogBuilder.buildLiquiInsertChangelog(inserts);
 
-			String filename = prefix + "/" + subfolder + "/" + obtenerFilename(grupoTipo);
-			files.add(filename);
+			String filename = obtenerFilename(grupoTipo);
+			String filePath = prefix + "/" + subfolder + "/" + filename;
+			String relativeFilepath = subfolder + "/" + filename;
+			files.add(relativeFilepath);
 
-			writeToFile(liqui, filename);
+			writeToFile(liqui, filePath);
 		}
 
 		LiquiChangelog liquiIndex = liquiChangeLogBuilder.buildFileIncludeChangelog(files);

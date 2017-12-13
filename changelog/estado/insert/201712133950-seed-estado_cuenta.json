@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213362",
+      "id" : "20171213395",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_transaccion",
+          "tableName" : "estado_cuenta",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transaccion liquidada/Retiro aprobado."
+              "value" : "Cuenta no habilitada para operar y en espera de validaci\\u00F3n de informaci\\u00F3n por no cumplir alg\\u00FAn requisito de Riesgos (LN)"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_APROBADA"
+              "value" : "CTA_REVISION"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_transaccion",
+          "tableName" : "estado_cuenta",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Para transacciones con cupon en efectivo, hasta presentaci\\u00F3n del MP o su vencimiento."
+              "value" : "Cuenta cuya revisi\\u00F3n ha sido rechazada por Riesgos"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_PENDIENTE"
+              "value" : "CTA_RECHAZADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_transaccion",
+          "tableName" : "estado_cuenta",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transaccion aprobada por el MP."
+              "value" : "Cuenta inhabilitada para realizar ventas"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_PROCESADA"
+              "value" : "CTA_INHAB_VENTA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_transaccion",
+          "tableName" : "estado_cuenta",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,22 +168,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Para transacciones con cupon en efectivo."
+              "value" : "Cuenta no habilitada para operar por falta de verificaci\\u00F3n de documentaci\\u00F3n fiscal"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_VENCIDA"
+              "value" : "CTA_PENDIENTE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -209,7 +209,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_transaccion",
+          "tableName" : "estado_cuenta",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -219,22 +219,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transaccion denegada por el MP o rechazada"
+              "value" : "Cuenta inhabilitada para realizar ventas y cashout"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_RECHAZADA"
+              "value" : "CTA_INHABILITADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -260,7 +260,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_transaccion",
+          "tableName" : "estado_cuenta",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -270,22 +270,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transaccion disponible/Ajuste disponible."
+              "value" : "Cuenta habilitada para operar"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_DISPONIBLE"
+              "value" : "CTA_HABILITADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-12-16 11:42:52"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -311,7 +311,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_transaccion",
+          "tableName" : "estado_cuenta",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -321,22 +321,226 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transaccion con Contracarga Aprobada"
+              "value" : "Cuenta inhabilitada para realizar cashout"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "TX_CONTRACARGADA"
+              "value" : "CTA_INHAB_CASHOUT"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-05-15 16:32:23"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-05-15 16:32:23"
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_cuenta",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "7"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Cuenta cerrada"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CTA_CERRADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_cuenta",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "8"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Cuenta vencida por no confirmaci\\u00F3n de mail dentro de las 48hs. de enviada la notificaci\\u00F3n."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CTA_VENCIDA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_cuenta",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "9"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Cuenta cerrada por el usuario, pendiente por bot\\u00F3n hasta la finalizaci\\u00F3n de los procesos necesarios para el cierre."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CTA_PEND_CIERRE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_cuenta",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "10"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Cuenta no habilitada para operar por falta de confirmaci\\u00F3n de mail"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CTA_CREADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {

@@ -1,0 +1,111 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171213340",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "estado_mpos",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : ""
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MPOS_SOLICITADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_mpos",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : ""
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MPOS_ENTREGADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

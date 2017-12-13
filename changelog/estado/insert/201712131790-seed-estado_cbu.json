@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213710",
+      "id" : "20171213179",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta no habilitada para operar y en espera de validaci\\u00F3n de informaci\\u00F3n por no cumplir alg\\u00FAn requisito de Riesgos (LN)"
+              "value" : "Cambio de CBU anulado"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_REVISION"
+              "value" : "CBU_ANULADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta cuya revisi\\u00F3n ha sido rechazada por Riesgos"
+              "value" : "CBU pendiente de habilitar"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_RECHAZADA"
+              "value" : "CBU_PEND-HABILITAR"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta inhabilitada para realizar ventas"
+              "value" : "CBU Habilitado para operar"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_INHAB_VENTA"
+              "value" : "CBU_HABILITADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,22 +168,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta no habilitada para operar por falta de verificaci\\u00F3n de documentaci\\u00F3n fiscal"
+              "value" : "CBU dado de baja"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_PENDIENTE"
+              "value" : "CBU_BAJA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {
@@ -209,7 +209,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -219,22 +219,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta inhabilitada para realizar ventas y cashout"
+              "value" : "CBU pre enrolado"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_INHABILITADA"
+              "value" : "CBU_PRE_ENROLADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-06-16 11:00:18"
             }
           }, {
             "column" : {
@@ -260,7 +260,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -270,22 +270,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta habilitada para operar"
+              "value" : "CBU pendiente de verificaci\\u00F3n de riesgos"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_HABILITADA"
+              "value" : "CBU_REVISION"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
@@ -311,7 +311,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -321,22 +321,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta inhabilitada para realizar cashout"
+              "value" : "Cambio de CBU rechazado"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_INHAB_CASHOUT"
+              "value" : "CBU_RECHAZADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
@@ -362,7 +362,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -372,22 +372,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta cerrada"
+              "value" : "Cambio de CBU pendiente por excepci\\u00F3n"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_CERRADA"
+              "value" : "CBU_FORZADO_EXC"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
@@ -413,7 +413,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_cuenta",
+          "tableName" : "estado_cbu",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -423,124 +423,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta vencida por no confirmaci\\u00F3n de mail dentro de las 48hs. de enviada la notificaci\\u00F3n."
+              "value" : "CBU creado previa validaci\\u00F3n de datos"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "CTA_VENCIDA"
+              "value" : "CBU_CREADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
-            }
-          }, {
-            "column" : {
-              "name" : "create_user",
-              "value" : "Script"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_user",
-              "value" : "null"
-            }
-          }, {
-            "column" : {
-              "name" : "version",
-              "value" : "0"
-            }
-          }, {
-            "column" : {
-              "name" : "is_active",
-              "valueBoolean" : true
-            }
-          } ]
-        }
-      }, {
-        "insert" : {
-          "tableName" : "estado_cuenta",
-          "schemaName" : "dbo",
-          "columns" : [ {
-            "column" : {
-              "name" : "id",
-              "value" : "9"
-            }
-          }, {
-            "column" : {
-              "name" : "description",
-              "value" : "Cuenta cerrada por el usuario, pendiente por bot\\u00F3n hasta la finalizaci\\u00F3n de los procesos necesarios para el cierre."
-            }
-          }, {
-            "column" : {
-              "name" : "code",
-              "value" : "CTA_PEND_CIERRE"
-            }
-          }, {
-            "column" : {
-              "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
-            }
-          }, {
-            "column" : {
-              "name" : "create_user",
-              "value" : "Script"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_user",
-              "value" : "null"
-            }
-          }, {
-            "column" : {
-              "name" : "version",
-              "value" : "0"
-            }
-          }, {
-            "column" : {
-              "name" : "is_active",
-              "valueBoolean" : true
-            }
-          } ]
-        }
-      }, {
-        "insert" : {
-          "tableName" : "estado_cuenta",
-          "schemaName" : "dbo",
-          "columns" : [ {
-            "column" : {
-              "name" : "id",
-              "value" : "10"
-            }
-          }, {
-            "column" : {
-              "name" : "description",
-              "value" : "Cuenta no habilitada para operar por falta de confirmaci\\u00F3n de mail"
-            }
-          }, {
-            "column" : {
-              "name" : "code",
-              "value" : "CTA_CREADA"
-            }
-          }, {
-            "column" : {
-              "name" : "create_date",
-              "value" : "2014-11-13 16:23:09"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_date",
-              "value" : "2014-11-13 16:23:09"
+              "value" : "2015-12-21 12:11:12"
             }
           }, {
             "column" : {

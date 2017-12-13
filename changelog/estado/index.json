@@ -3,92 +3,92 @@
     "comment" : "Comentario"
   }, {
     "include" : {
-      "file" : "estado/insert/201712131200-seed-estado_documentacion.json",
+      "file" : "insert/201712131000-seed-estado_documentacion.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712131440-seed-estado_transaccionbsa.json",
+      "file" : "insert/201712136400-seed-estado_transaccionbsa.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712131680-seed-estado_cbu.json",
+      "file" : "insert/201712131790-seed-estado_cbu.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712132770-seed-estado_cambio_pendiente.json",
+      "file" : "insert/201712131950-seed-estado_cambio_pendiente.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712133060-seed-estado_documento.json",
+      "file" : "insert/201712132080-seed-estado_documento.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712133340-seed-estado_actividad.json",
+      "file" : "insert/201712132220-seed-estado_actividad.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712133620-seed-estado_transaccion.json",
+      "file" : "insert/201712132410-seed-estado_transaccion.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712134110-seed-estado_medio_de_pago.json",
+      "file" : "insert/201712132590-seed-estado_medio_de_pago.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712134460-seed-estado_disputa.json",
+      "file" : "insert/201712132740-seed-estado_disputa.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712134780-seed-estado_promo_proceso.json",
+      "file" : "insert/201712132900-seed-estado_promo_proceso.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712135040-seed-estado_interconexion.json",
+      "file" : "insert/201712133060-seed-estado_interconexion.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712135490-seed-estado_p2p.json",
+      "file" : "insert/201712133220-seed-estado_p2p.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712136020-seed-estado_mpos.json",
+      "file" : "insert/201712133400-seed-estado_mpos.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712136520-seed-estado_ajuste.json",
+      "file" : "insert/201712133590-seed-estado_ajuste.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712136790-seed-estado_txpei_aprobada.json",
+      "file" : "insert/201712133810-seed-estado_txpei_aprobada.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712137100-seed-estado_cuenta.json",
+      "file" : "insert/201712133950-seed-estado_cuenta.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712137320-seed-estado_txpei_rechazada.json",
+      "file" : "insert/201712134230-seed-estado_txpei_rechazada.json",
       "relativeToChangelogFile" : true
     }
   }, {
     "include" : {
-      "file" : "estado/insert/201712137660-seed-estado_mail.json",
+      "file" : "insert/201712134340-seed-estado_mail.json",
       "relativeToChangelogFile" : true
     }
   } ]

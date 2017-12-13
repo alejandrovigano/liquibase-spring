@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213504",
+      "id" : "20171213222",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_interconexion",
+          "tableName" : "estado_actividad",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Interconexion para cuenta habilitada a ingresar "
+              "value" : "Se considera que la actividad declarada por el vendedor coincide con la informada por AFIP."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "INT_HABILITADA"
+              "value" : "ACT_VALIDA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_interconexion",
+          "tableName" : "estado_actividad",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Interconexion para cuenta inexistente"
+              "value" : "Se considera que la actividad declarada no coincide con la informada por AFIP."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "INT_NUEVO"
+              "value" : "ACT_INVALIDA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_interconexion",
+          "tableName" : "estado_actividad",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Interconexion error"
+              "value" : "Actividad pendiente de verificaci\\u00F3n con AFIP"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "INT_ERROR"
+              "value" : "ACT_PENDIENTE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_interconexion",
+          "tableName" : "estado_actividad",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,73 +168,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Interconexion para cuenta sin primer login desde el banco"
+              "value" : "No se debe verificar el estadox de la actividad por la condici\\u00F3n tributaria declarada del vendedor."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "INT_LOGIN"
+              "value" : "ACT_NO_APLICA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-06-16 11:00:17"
-            }
-          }, {
-            "column" : {
-              "name" : "create_user",
-              "value" : "Script"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_user",
-              "value" : "null"
-            }
-          }, {
-            "column" : {
-              "name" : "version",
-              "value" : "0"
-            }
-          }, {
-            "column" : {
-              "name" : "is_active",
-              "valueBoolean" : true
-            }
-          } ]
-        }
-      }, {
-        "insert" : {
-          "tableName" : "estado_interconexion",
-          "schemaName" : "dbo",
-          "columns" : [ {
-            "column" : {
-              "name" : "id",
-              "value" : "4"
-            }
-          }, {
-            "column" : {
-              "name" : "description",
-              "value" : "Interconexion para cuenta no confirmada"
-            }
-          }, {
-            "column" : {
-              "name" : "code",
-              "value" : "INT_CONFIRMACION"
-            }
-          }, {
-            "column" : {
-              "name" : "create_date",
-              "value" : "2015-06-16 11:00:17"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_date",
-              "value" : "2015-06-16 11:00:17"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {

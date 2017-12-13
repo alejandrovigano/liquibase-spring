@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213766",
+      "id" : "20171213359",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_mail",
+          "tableName" : "estado_ajuste",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Mail no habilitado para operar por haberse superado el plazo de espera de confirmaci\\u00F3n"
+              "value" : "Se intent\\u00F3 aplicar el ajuste pero ocurri\\u00F3 un error inesperado"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MAIL_VENCIDO"
+              "value" : "AJUSTE_PENDIENTE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2016-03-21 10:35:15"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2016-03-21 10:35:15"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_mail",
+          "tableName" : "estado_ajuste",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Mail pendiente de confirmaci\\u00F3n"
+              "value" : "El ajuste ha sido rechazado por el supervisor"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MAIL_PENDIENTE"
+              "value" : "AJUSTE_RECHAZADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2016-07-28 17:13:21"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2016-07-28 17:13:21"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_mail",
+          "tableName" : "estado_ajuste",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,73 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Mail confirmado y habilitado para operar"
+              "value" : "El ajuste se aplic\\u00F3 correctamente en la cuenta virtual"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MAIL_ACTIVO"
+              "value" : "AJUSTE_PROCESADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2016-03-21 10:35:15"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
-            }
-          }, {
-            "column" : {
-              "name" : "create_user",
-              "value" : "Script"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_user",
-              "value" : "null"
-            }
-          }, {
-            "column" : {
-              "name" : "version",
-              "value" : "0"
-            }
-          }, {
-            "column" : {
-              "name" : "is_active",
-              "valueBoolean" : true
-            }
-          } ]
-        }
-      }, {
-        "insert" : {
-          "tableName" : "estado_mail",
-          "schemaName" : "dbo",
-          "columns" : [ {
-            "column" : {
-              "name" : "id",
-              "value" : "3"
-            }
-          }, {
-            "column" : {
-              "name" : "description",
-              "value" : "Mail no habilitado para operar"
-            }
-          }, {
-            "column" : {
-              "name" : "code",
-              "value" : "MAIL_INACTIVO"
-            }
-          }, {
-            "column" : {
-              "name" : "create_date",
-              "value" : "2015-03-11 12:55:35"
-            }
-          }, {
-            "column" : {
-              "name" : "modify_date",
-              "value" : "2015-03-11 12:55:35"
+              "value" : "2016-03-21 10:35:15"
             }
           }, {
             "column" : {

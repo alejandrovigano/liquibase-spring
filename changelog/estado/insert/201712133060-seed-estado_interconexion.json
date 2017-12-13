@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213548",
+      "id" : "20171213306",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_p2p",
+          "tableName" : "estado_interconexion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,22 +15,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transacci\\u00F3n P2P Procesada"
+              "value" : "Interconexion para cuenta habilitada a ingresar "
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "P2P_ENVIO_PROCESADO"
+              "value" : "INT_HABILITADA"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-07-27 16:44:34"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-07-27 16:44:34"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_p2p",
+          "tableName" : "estado_interconexion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,22 +66,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transacci\\u00F3n P2P Disponible"
+              "value" : "Interconexion para cuenta inexistente"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "P2P_ENVIO_DISPONIBLE"
+              "value" : "INT_NUEVO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-07-27 16:44:34"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-07-27 16:44:34"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
@@ -107,7 +107,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_p2p",
+          "tableName" : "estado_interconexion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -117,22 +117,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transacci\\u00F3n P2P Aprobada"
+              "value" : "Interconexion error"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "P2P_ENVIO_APROBADO"
+              "value" : "INT_ERROR"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-07-15 15:18:58"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-07-15 15:18:58"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
@@ -158,7 +158,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_p2p",
+          "tableName" : "estado_interconexion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -168,22 +168,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transacci\\u00F3n P2P Pendiente"
+              "value" : "Interconexion para cuenta sin primer login desde el banco"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "P2P_ENVIO_PENDIENTE"
+              "value" : "INT_LOGIN"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-07-15 15:18:58"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-07-15 15:18:58"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
@@ -209,7 +209,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_p2p",
+          "tableName" : "estado_interconexion",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -219,22 +219,22 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Transacci\\u00F3n P2P Rechazada"
+              "value" : "Interconexion para cuenta no confirmada"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "P2P_ENVIO_RECHAZADO"
+              "value" : "INT_CONFIRMACION"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "2016-07-15 15:18:58"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "2016-07-15 15:18:58"
+              "value" : "2015-06-16 11:00:17"
             }
           }, {
             "column" : {

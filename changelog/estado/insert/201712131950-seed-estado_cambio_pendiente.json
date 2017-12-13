@@ -1,11 +1,11 @@
 {
   "databaseChangeLog" : [ {
     "changeSet" : {
-      "id" : "20171213602",
+      "id" : "20171213195",
       "author" : "incluit",
       "changes" : [ {
         "insert" : {
-          "tableName" : "estado_mpos",
+          "tableName" : "estado_cambio_pendiente",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -15,27 +15,27 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : ""
+              "value" : "El cambio ha sido revisado, aprobado e impactado."
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MPOS_SOLICITADO"
+              "value" : "CAMBIO_APROBADO"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "null"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "null"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "create_user",
-              "value" : "null"
+              "value" : "Script"
             }
           }, {
             "column" : {
@@ -56,7 +56,7 @@
         }
       }, {
         "insert" : {
-          "tableName" : "estado_mpos",
+          "tableName" : "estado_cambio_pendiente",
           "schemaName" : "dbo",
           "columns" : [ {
             "column" : {
@@ -66,27 +66,78 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : ""
+              "value" : "Cambio pendiente de verificaci\\u00F3n"
             }
           }, {
             "column" : {
               "name" : "code",
-              "value" : "MPOS_ENTREGADO"
+              "value" : "CAMBIO_PENDIENTE"
             }
           }, {
             "column" : {
               "name" : "create_date",
-              "value" : "null"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "modify_date",
-              "value" : "null"
+              "value" : "2014-11-13 16:23:09"
             }
           }, {
             "column" : {
               "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
               "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_cambio_pendiente",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "El cambio ha sido revisado y, si bien es requerido para completar el proceso de verificaci\\u00F3n, no puede aceptarse."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CAMBIO_RECHAZADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
             }
           }, {
             "column" : {
