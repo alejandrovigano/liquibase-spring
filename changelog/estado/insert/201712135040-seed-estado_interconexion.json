@@ -1,0 +1,264 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171213504",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "estado_interconexion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Interconexion para cuenta habilitada a ingresar "
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "INT_HABILITADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_interconexion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Interconexion para cuenta inexistente"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "INT_NUEVO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_interconexion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Interconexion error"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "INT_ERROR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_interconexion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Interconexion para cuenta sin primer login desde el banco"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "INT_LOGIN"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_interconexion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "4"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Interconexion para cuenta no confirmada"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "INT_CONFIRMACION"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-06-16 11:00:17"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

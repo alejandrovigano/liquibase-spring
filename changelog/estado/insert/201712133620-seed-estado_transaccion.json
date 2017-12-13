@@ -1,0 +1,366 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171213362",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "estado_transaccion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion liquidada/Retiro aprobado."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TX_APROBADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Para transacciones con cupon en efectivo, hasta presentaci\\u00F3n del MP o su vencimiento."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TX_PENDIENTE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion aprobada por el MP."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TX_PROCESADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Para transacciones con cupon en efectivo."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TX_VENCIDA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "4"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion denegada por el MP o rechazada"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TX_RECHAZADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "5"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion disponible/Ajuste disponible."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TX_DISPONIBLE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-12-16 11:42:52"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "6"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion con Contracarga Aprobada"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TX_CONTRACARGADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-05-15 16:32:23"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-05-15 16:32:23"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

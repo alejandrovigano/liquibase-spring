@@ -3,14 +3,11 @@ package ar.com.incluit.liqui;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import ar.com.incluit.domain.GrupoTipo;
-import ar.com.incluit.domain.Tipo;
+import ar.com.incluit.domain.AbstractParameter;
 import ar.com.incluit.liqui.changelog.Insert;
 
 @Component
@@ -22,14 +19,18 @@ public class InsertBuilder {
 	@Autowired
 	private TableResolver tableResolver;
 
-	public List<Insert> buildInserts(List<Tipo> tipos) {
+	@Value("${schema}")
+	private String schemaName;
+
+	public List<Insert> buildInserts(List<? extends AbstractParameter> tipos) {
 
 		List<Insert> inserts = new ArrayList<>();
 
 		int i = 0;
-		for (Tipo tipo : tipos) {
+		for (AbstractParameter tipo : tipos) {
 			Insert insert = new Insert();
-			insert.setTableName(tableResolver.obtenerTabla(tipo.getGrupoTipo()));
+			insert.setSchemaName(schemaName);
+			insert.setTableName(tableResolver.obtenerTabla(tipo.getAbstractGrupoTipo()));
 			insert.setColumns(columnBuilder.obtenerColumns(tipo, i));
 
 			inserts.add(insert);

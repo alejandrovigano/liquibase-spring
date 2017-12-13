@@ -1,0 +1,213 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171213766",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "estado_mail",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Mail no habilitado para operar por haberse superado el plazo de espera de confirmaci\\u00F3n"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MAIL_VENCIDO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_mail",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Mail pendiente de confirmaci\\u00F3n"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MAIL_PENDIENTE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_mail",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Mail confirmado y habilitado para operar"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MAIL_ACTIVO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_mail",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Mail no habilitado para operar"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MAIL_INACTIVO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

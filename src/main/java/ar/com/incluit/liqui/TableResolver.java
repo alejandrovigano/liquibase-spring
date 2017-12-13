@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
-import ar.com.incluit.domain.GrupoTipo;
+import ar.com.incluit.domain.AbstractGrupo;
 
 @Component
 public class TableResolver {
@@ -16,9 +16,9 @@ public class TableResolver {
 	@Autowired
 	private Environment env;
 
-	public String obtenerTabla(GrupoTipo grupoTipo) {
-		String tabla = env.getProperty("tabla-grupo-" + grupoTipo.getIdGrupoTipo());
-		LOGGER.info("GRUPO:" + grupoTipo + " TABLA: " + tabla);
+	public String obtenerTabla(AbstractGrupo grupoTipo) {
+		String tabla = env.getProperty("tabla-grupo-" + grupoTipo.getPrefix() + "-" + grupoTipo.getId());
+		LOGGER.info("tabla-grupo-" + grupoTipo.getPrefix() + "-" + grupoTipo.getId());
 		return tabla;
 	}
 

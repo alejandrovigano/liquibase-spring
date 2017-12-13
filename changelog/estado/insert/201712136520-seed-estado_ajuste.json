@@ -1,0 +1,162 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171213652",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "estado_ajuste",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Se intent\\u00F3 aplicar el ajuste pero ocurri\\u00F3 un error inesperado"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "AJUSTE_PENDIENTE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-03-21 10:35:15"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-03-21 10:35:15"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_ajuste",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "El ajuste ha sido rechazado por el supervisor"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "AJUSTE_RECHAZADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-07-28 17:13:21"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-07-28 17:13:21"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_ajuste",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "El ajuste se aplic\\u00F3 correctamente en la cuenta virtual"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "AJUSTE_PROCESADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-03-21 10:35:15"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-03-21 10:35:15"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

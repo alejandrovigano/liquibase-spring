@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringEscapeUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import ar.com.incluit.domain.Tipo;
+import ar.com.incluit.domain.AbstractParameter;
 import ar.com.incluit.liqui.changelog.Column;
 import ar.com.incluit.liqui.changelog.ValueColumn;
 
@@ -20,7 +20,7 @@ public class ColumnBuilder {
 	@Value("${dateFormat}")
 	private String dateFormat;
 
-	public List<Column> obtenerColumns(Tipo tipo, int i) {
+	public List<Column> obtenerColumns(AbstractParameter tipo, int i) {
 		List<Column> columnas = new ArrayList<>();
 
 		columnas.add(obtenerColumna("id", i)); // TODO VER

@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.function.Function;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ar.com.incluit.domain.GrupoTipo;
+import ar.com.incluit.domain.AbstractGrupo;
+import ar.com.incluit.domain.AbstractParameter;
 import ar.com.incluit.domain.Tipo;
 import ar.com.incluit.liqui.ChangeLogJsonBuilder;
 import ar.com.incluit.liqui.InsertBuilder;
@@ -24,6 +26,8 @@ import ar.com.incluit.liqui.LiquiChangeLogBuilder;
 import ar.com.incluit.liqui.TableResolver;
 import ar.com.incluit.liqui.changelog.Insert;
 import ar.com.incluit.liqui.changelog.LiquiChangelog;
+import ar.com.incluit.repository.EstadoRepository;
+import ar.com.incluit.repository.GrupoEstadoRepository;
 import ar.com.incluit.repository.GrupoTipoRepository;
 import ar.com.incluit.repository.TipoRepository;
 
@@ -32,10 +36,16 @@ import ar.com.incluit.repository.TipoRepository;
 public class LiquiController {
 
 	@Autowired
-	private TipoRepository repository;
+	private TipoRepository tipoRepository;
+
+	@Autowired
+	private EstadoRepository estadoRepository;
 
 	@Autowired
 	private GrupoTipoRepository grupoTipoRepository;
+
+	@Autowired
+	private GrupoEstadoRepository grupoEstadoRepository;
 
 	@Autowired
 	private InsertBuilder insertBuilder;
@@ -57,35 +67,44 @@ public class LiquiController {
 
 	@GetMapping
 	public String buildJson() throws Exception {
-		List<Tipo> tipos = repository.findAll();
+		List<Tipo> tipos = tipoRepository.findAll();
 		List<Insert> inserts = insertBuilder.buildInserts(tipos);
 		LiquiChangelog liqui = liquiChangeLogBuilder.buildLiquiInsertChangelog(inserts);
 		return jsonBuilder.buildChangeLogJson(liqui);
 	}
 
-	@GetMapping("/groupsave")
-	public String buildJsonGrouped() throws Exception {
+	@GetMapping("/tipo")
+	public String buildJsonGroupedTipo() throws Exception {
+		Iterable<? extends AbstractGrupo> grupos = grupoTipoRepository.findAll();
+		buildJsonAndWriteFile(grupos, tipoRepository::findByGrupoTipoIdGrupoTipo,"tipo");
+		return "ok";
+	}
 
-		Iterable<GrupoTipo> grupos = grupoTipoRepository.findAll();
+	@GetMapping("/estado")
+	public String buildJsonGroupedEstado() throws Exception {
+		Iterable<? extends AbstractGrupo> grupos = grupoEstadoRepository.findAll();
+		buildJsonAndWriteFile(grupos, estadoRepository::findByGrupoEstadoIdGrupoEstado,"estado");
+		return "ok";
+	}
 
+	private void buildJsonAndWriteFile(Iterable<? extends AbstractGrupo> grupos,
+			Function<Integer, List<? extends AbstractParameter>> findByGrupo, String prefix) throws Exception, IOException {
 		List<String> files = new ArrayList<>();
 
-		for (GrupoTipo grupoTipo : grupos) {
-			List<Tipo> tipos = repository.findByGrupoTipo(grupoTipo);
+		for (AbstractGrupo grupoTipo : grupos) {
+			List<? extends AbstractParameter> tipos = findByGrupo.apply(grupoTipo.getId());
 
 			List<Insert> inserts = insertBuilder.buildInserts(tipos);
 			LiquiChangelog liqui = liquiChangeLogBuilder.buildLiquiInsertChangelog(inserts);
 
-			String filename = subfolder + "/" + obtenerFilename(grupoTipo);
+			String filename = prefix + "/" + subfolder + "/" + obtenerFilename(grupoTipo);
 			files.add(filename);
 
 			writeToFile(liqui, filename);
 		}
 
 		LiquiChangelog liquiIndex = liquiChangeLogBuilder.buildFileIncludeChangelog(files);
-		writeToFile(liquiIndex, "index.json");
-
-		return "ok";
+		writeToFile(liquiIndex, prefix + "/index.json");
 	}
 
 	private void writeToFile(LiquiChangelog liqui, String filename) throws Exception, IOException {
@@ -98,9 +117,9 @@ public class LiquiController {
 		Files.write(filePath, json.getBytes());
 	}
 
-	private String obtenerFilename(GrupoTipo grupoTipo) {
+	private String obtenerFilename(AbstractGrupo grupoTipo) {
 		String date = new SimpleDateFormat("yyyyMMddS").format(new Date());
 		date = StringUtils.rightPad(date, 12, "0");
-		return date + "-" + tableResolver.obtenerTabla(grupoTipo) + "-insert.json";
+		return date + "-seed-" + tableResolver.obtenerTabla(grupoTipo) + ".json";
 	}
 }

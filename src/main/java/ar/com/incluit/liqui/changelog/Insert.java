@@ -5,7 +5,16 @@ import java.util.List;
 public class Insert {
 
 	private String tableName;
+	private String schemaName;
 	private List<Column> columns;
+
+	public String getSchemaName() {
+		return schemaName;
+	}
+
+	public void setSchemaName(String schemaName) {
+		this.schemaName = schemaName;
+	}
 
 	public String getTableName() {
 		return tableName;

@@ -1,0 +1,315 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171213411",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "estado_medio_de_pago",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Medio de Pago proveniente de una PreAccount"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MP_PRE_ACCOUNT"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-11-10 14:30:07"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-11-10 14:30:07"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_medio_de_pago",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Medio de pago pendiente de habilitacion"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MP_PEND_HABILITAR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_medio_de_pago",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Medio de pago habilitado para operar"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MP_HABILITADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_medio_de_pago",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Medio de pago Vencido"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MP_VENCIDO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_medio_de_pago",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "4"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Medio de pago pre enrolado."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MP_PRE_ENROLADO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_medio_de_pago",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "5"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Mediode pago dado de baja."
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MP_BAJA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-03-11 12:55:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

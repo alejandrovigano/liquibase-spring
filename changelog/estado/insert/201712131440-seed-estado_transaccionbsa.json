@@ -1,0 +1,213 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171213144",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "estado_transaccionbsa",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion de BSA con push del comercio por transaccion aprobada"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BSA_TX_APROBADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccionbsa",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion de BSA con push del comercio por transaccion rechazada"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BSA_TX_RECHAZADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccionbsa",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion de BSA luego del login del comprador en el formulario"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BSA_TX_PROCESO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "estado_transaccionbsa",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Transaccion de BSA con pedido de SAR del comercio"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BSA_TX_INICIADA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-09-06 15:38:38"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}
