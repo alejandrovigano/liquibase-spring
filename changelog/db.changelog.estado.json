@@ -1,0 +1,2162 @@
+{ "databaseChangeLog": [
+  {
+    "changeSet": {
+      "id": "1513279229952-1",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_documentacion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-2",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_disputa"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-3",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_mail"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-4",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_cambio_pendiente"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-5",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_p2p"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-6",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_cbu"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-7",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_transaccion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-8",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_ajuste"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-9",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_actividad"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-10",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_documento"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-11",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_txpei_aprobada"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-12",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_promo_proceso"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-13",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_transaccionbsa"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-14",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_cuenta"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-15",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_medio_de_pago"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-16",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_txpei_rechazada"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-17",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_mpos"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-18",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "estado_interconexion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-19",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_d__3213E83F38F4F5AD",
+            "schemaName": "dbo",
+            "tableName": "estado_documentacion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-20",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_2jt43rose1kborpw9qb91ptb1",
+            "schemaName": "dbo",
+            "tableName": "estado_documentacion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-21",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_d__3213E83F1F1858A9",
+            "schemaName": "dbo",
+            "tableName": "estado_disputa"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-22",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_m7e6jl9gcgbx7nx4cckqryij7",
+            "schemaName": "dbo",
+            "tableName": "estado_disputa"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-23",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_m__3213E83F64D0D2E6",
+            "schemaName": "dbo",
+            "tableName": "estado_mail"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-24",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_76turyfdka3uomjkr9kt4yhbr",
+            "schemaName": "dbo",
+            "tableName": "estado_mail"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-25",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_c__3213E83F2FC6F59D",
+            "schemaName": "dbo",
+            "tableName": "estado_cambio_pendiente"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-26",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_ec0x0j82k9qah3rsuwe7leqnk",
+            "schemaName": "dbo",
+            "tableName": "estado_cambio_pendiente"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-27",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_p__3213E83FA3D7F16B",
+            "schemaName": "dbo",
+            "tableName": "estado_p2p"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-28",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_ck4210km114i5kbl8es7cjqrb",
+            "schemaName": "dbo",
+            "tableName": "estado_p2p"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-29",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_c__3213E83F069E8430",
+            "schemaName": "dbo",
+            "tableName": "estado_cbu"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-30",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_a8rvxhiawb090hm7d2ktjudxh",
+            "schemaName": "dbo",
+            "tableName": "estado_cbu"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-31",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_t__3213E83FFBA28470",
+            "schemaName": "dbo",
+            "tableName": "estado_transaccion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-32",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_i295jpadhl0k0uyaibcokey42",
+            "schemaName": "dbo",
+            "tableName": "estado_transaccion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-33",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_a__3213E83FBB48AEBE",
+            "schemaName": "dbo",
+            "tableName": "estado_ajuste"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-34",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_f0jo5u7044uikawvolcxkty7u",
+            "schemaName": "dbo",
+            "tableName": "estado_ajuste"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-35",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_a__3213E83F10E99FED",
+            "schemaName": "dbo",
+            "tableName": "estado_actividad"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-36",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_q2943oicqfl6mvy07ja0dy456",
+            "schemaName": "dbo",
+            "tableName": "estado_actividad"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-37",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_d__3213E83F84B49DE6",
+            "schemaName": "dbo",
+            "tableName": "estado_documento"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-38",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_swvhg4iu21b3ksge1cs36icrg",
+            "schemaName": "dbo",
+            "tableName": "estado_documento"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-39",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_t__3213E83F76CC6AB3",
+            "schemaName": "dbo",
+            "tableName": "estado_txpei_aprobada"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-40",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_a5im011m5nw4r0xturfehqw1h",
+            "schemaName": "dbo",
+            "tableName": "estado_txpei_aprobada"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-41",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_p__3213E83F5D854F2E",
+            "schemaName": "dbo",
+            "tableName": "estado_promo_proceso"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-42",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_jllwktrwni5apl7v28hjgul6",
+            "schemaName": "dbo",
+            "tableName": "estado_promo_proceso"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-43",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_t__3213E83F0E13F9A0",
+            "schemaName": "dbo",
+            "tableName": "estado_transaccionbsa"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-44",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_bxlys8se6mpkp5ucii9tuk4as",
+            "schemaName": "dbo",
+            "tableName": "estado_transaccionbsa"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-45",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_c__3213E83F50A9749F",
+            "schemaName": "dbo",
+            "tableName": "estado_cuenta"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-46",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_h57bwkful9i0x25k0ompivpxe",
+            "schemaName": "dbo",
+            "tableName": "estado_cuenta"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-47",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_m__3213E83F3AE33FEE",
+            "schemaName": "dbo",
+            "tableName": "estado_medio_de_pago"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-48",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_tf7sbyxeulj7hf6wdl6blpmy1",
+            "schemaName": "dbo",
+            "tableName": "estado_medio_de_pago"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-49",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_t__3213E83F01BCFEC2",
+            "schemaName": "dbo",
+            "tableName": "estado_txpei_rechazada"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-50",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_nfgh881tp4ow84huwwwich6rl",
+            "schemaName": "dbo",
+            "tableName": "estado_txpei_rechazada"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-51",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_m__3213E83F6E67B14D",
+            "schemaName": "dbo",
+            "tableName": "estado_mpos"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-52",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_rrfqt9j2r7fcmw4vedo7fnk87",
+            "schemaName": "dbo",
+            "tableName": "estado_mpos"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-53",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__estado_i__3213E83F6AAE6015",
+            "schemaName": "dbo",
+            "tableName": "estado_interconexion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513279229952-54",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_h623uteusvhao7ylukeyo676v",
+            "schemaName": "dbo",
+            "tableName": "estado_interconexion"
+          }
+        }]
+      
+    }
+  }
+  
+]}
