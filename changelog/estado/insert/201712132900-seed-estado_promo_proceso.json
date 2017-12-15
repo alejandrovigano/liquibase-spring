@@ -15,7 +15,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Se est\\u00E1n procesando las reglas de bonificaci\\u00F3n asociadas a la promoci\\u00F3n"
+              "value" : "Se est\u00E1n procesando las reglas de bonificaci\u00F3n asociadas a la promoci\u00F3n"
             }
           }, {
             "column" : {
@@ -66,7 +66,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Error en el procesamiento de las reglas de bonificaci\\u00F3n"
+              "value" : "Error en el procesamiento de las reglas de bonificaci\u00F3n"
             }
           }, {
             "column" : {
@@ -117,7 +117,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Reglas de Bonificaci\\u00F3n procesadas exitosamente"
+              "value" : "Reglas de Bonificaci\u00F3n procesadas exitosamente"
             }
           }, {
             "column" : {

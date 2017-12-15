@@ -117,7 +117,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Actividad pendiente de verificaci\\u00F3n con AFIP"
+              "value" : "Actividad pendiente de verificaci\u00F3n con AFIP"
             }
           }, {
             "column" : {
@@ -168,7 +168,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "No se debe verificar el estadox de la actividad por la condici\\u00F3n tributaria declarada del vendedor."
+              "value" : "No se debe verificar el estadox de la actividad por la condici\u00F3n tributaria declarada del vendedor."
             }
           }, {
             "column" : {

@@ -15,7 +15,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Se intent\\u00F3 aplicar el ajuste pero ocurri\\u00F3 un error inesperado"
+              "value" : "Se intent\u00F3 aplicar el ajuste pero ocurri\u00F3 un error inesperado"
             }
           }, {
             "column" : {
@@ -117,7 +117,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El ajuste se aplic\\u00F3 correctamente en la cuenta virtual"
+              "value" : "El ajuste se aplic\u00F3 correctamente en la cuenta virtual"
             }
           }, {
             "column" : {

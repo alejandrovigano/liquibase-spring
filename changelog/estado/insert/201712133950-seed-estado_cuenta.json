@@ -15,7 +15,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta no habilitada para operar y en espera de validaci\\u00F3n de informaci\\u00F3n por no cumplir alg\\u00FAn requisito de Riesgos (LN)"
+              "value" : "Cuenta no habilitada para operar y en espera de validaci\u00F3n de informaci\u00F3n por no cumplir alg\u00FAn requisito de Riesgos (LN)"
             }
           }, {
             "column" : {
@@ -66,7 +66,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta cuya revisi\\u00F3n ha sido rechazada por Riesgos"
+              "value" : "Cuenta cuya revisi\u00F3n ha sido rechazada por Riesgos"
             }
           }, {
             "column" : {
@@ -168,7 +168,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta no habilitada para operar por falta de verificaci\\u00F3n de documentaci\\u00F3n fiscal"
+              "value" : "Cuenta no habilitada para operar por falta de verificaci\u00F3n de documentaci\u00F3n fiscal"
             }
           }, {
             "column" : {
@@ -423,7 +423,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta vencida por no confirmaci\\u00F3n de mail dentro de las 48hs. de enviada la notificaci\\u00F3n."
+              "value" : "Cuenta vencida por no confirmaci\u00F3n de mail dentro de las 48hs. de enviada la notificaci\u00F3n."
             }
           }, {
             "column" : {
@@ -474,7 +474,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta cerrada por el usuario, pendiente por bot\\u00F3n hasta la finalizaci\\u00F3n de los procesos necesarios para el cierre."
+              "value" : "Cuenta cerrada por el usuario, pendiente por bot\u00F3n hasta la finalizaci\u00F3n de los procesos necesarios para el cierre."
             }
           }, {
             "column" : {
@@ -525,7 +525,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cuenta no habilitada para operar por falta de confirmaci\\u00F3n de mail"
+              "value" : "Cuenta no habilitada para operar por falta de confirmaci\u00F3n de mail"
             }
           }, {
             "column" : {

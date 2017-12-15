@@ -15,7 +15,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El documento ha sido revisado y es considerado v\\u00E1lido."
+              "value" : "El documento ha sido revisado y es considerado v\u00E1lido."
             }
           }, {
             "column" : {
@@ -66,7 +66,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Documento pendiente de verificaci\\u00F3n"
+              "value" : "Documento pendiente de verificaci\u00F3n"
             }
           }, {
             "column" : {
@@ -117,7 +117,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El documento ha sido revisado y, si bien es requerido para completar el proceso de verificaci\\u00F3n, no puede aceptarse."
+              "value" : "El documento ha sido revisado y, si bien es requerido para completar el proceso de verificaci\u00F3n, no puede aceptarse."
             }
           }, {
             "column" : {
@@ -168,7 +168,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El documento es irrelevante para verificar la condici\\u00F3n tributaria del vendedor."
+              "value" : "El documento es irrelevante para verificar la condici\u00F3n tributaria del vendedor."
             }
           }, {
             "column" : {

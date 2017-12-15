@@ -270,7 +270,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "CBU pendiente de verificaci\\u00F3n de riesgos"
+              "value" : "CBU pendiente de verificaci\u00F3n de riesgos"
             }
           }, {
             "column" : {
@@ -372,7 +372,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Cambio de CBU pendiente por excepci\\u00F3n"
+              "value" : "Cambio de CBU pendiente por excepci\u00F3n"
             }
           }, {
             "column" : {
@@ -423,7 +423,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "CBU creado previa validaci\\u00F3n de datos"
+              "value" : "CBU creado previa validaci\u00F3n de datos"
             }
           }, {
             "column" : {

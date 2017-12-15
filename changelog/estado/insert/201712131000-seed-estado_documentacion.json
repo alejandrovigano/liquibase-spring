@@ -15,7 +15,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Se ha iniciado el proceso de verificaci\\u00F3n de la documentaci\\u00F3n (se ha validado correctamente alguno de los documentos presentados) pero a\\u00FAn quedan documentos pendientes de verificaci\\u00F3n."
+              "value" : "Se ha iniciado el proceso de verificaci\u00F3n de la documentaci\u00F3n (se ha validado correctamente alguno de los documentos presentados) pero a\u00FAn quedan documentos pendientes de verificaci\u00F3n."
             }
           }, {
             "column" : {
@@ -66,7 +66,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Documentaci\\u00F3n presentada pendiente de verificaci\\u00F3n"
+              "value" : "Documentaci\u00F3n presentada pendiente de verificaci\u00F3n"
             }
           }, {
             "column" : {
@@ -117,7 +117,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El vendedor ha presentado todos los documentos necesarios de acuerdo a su condici\\u00F3n tributaria y cada uno de ellos ha sido considerado Aprobado."
+              "value" : "El vendedor ha presentado todos los documentos necesarios de acuerdo a su condici\u00F3n tributaria y cada uno de ellos ha sido considerado Aprobado."
             }
           }, {
             "column" : {
@@ -168,7 +168,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "Se ha completado el proceso de verificaci\\u00F3n de la documentaci\\u00F3n pero alguno de los documentos presentados ha sido rechazado. Se requiere respuesta del vendedor"
+              "value" : "Se ha completado el proceso de verificaci\u00F3n de la documentaci\u00F3n pero alguno de los documentos presentados ha sido rechazado. Se requiere respuesta del vendedor"
             }
           }, {
             "column" : {
@@ -219,7 +219,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "El vendedor no registra documentaci\\u00F3n presentada"
+              "value" : "El vendedor no registra documentaci\u00F3n presentada"
             }
           }, {
             "column" : {
@@ -270,7 +270,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "La situaci\\u00F3n tributaria del vendedor no requiere verificaci\\u00F3n de documentaci\\u00F3n."
+              "value" : "La situaci\u00F3n tributaria del vendedor no requiere verificaci\u00F3n de documentaci\u00F3n."
             }
           }, {
             "column" : {
@@ -321,7 +321,7 @@
           }, {
             "column" : {
               "name" : "description",
-              "value" : "No se puede proceder con la validaci\\u00F3n de la documentaci\\u00F3n por presentarse alg\\u00FAn dato pendiente de revisi\\u00F3n en Riesgos."
+              "value" : "No se puede proceder con la validaci\u00F3n de la documentaci\u00F3n por presentarse alg\u00FAn dato pendiente de revisi\u00F3n en Riesgos."
             }
           }, {
             "column" : {
