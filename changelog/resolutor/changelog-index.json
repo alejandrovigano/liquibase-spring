@@ -1,0 +1,7 @@
+{
+    "databaseChangeLog": [
+        {"comment" : "Sprint 49 - Tablas Resolutor Transaccion"}, 
+        { "include": { "file": "tables/sprint49/201712191700-agregado-de-tabla-resolutor-transaccion.json", "relativeToChangelogFile": true	} },
+        { "include": { "file": "tables/sprint49/201712191701-seed-resolutor.json", "relativeToChangelogFile": true	} }
+    ]
+}

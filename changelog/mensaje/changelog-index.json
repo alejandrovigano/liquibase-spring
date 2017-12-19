@@ -1,0 +1,7 @@
+{
+    "databaseChangeLog": [
+        {"comment" : "Sprint 49 - Tablas Mensaje"}, 
+        { "include": { "file": "tables/sprint49/201712191700-agregado-de-tabla-mensaje.json", "relativeToChangelogFile": true	} },
+        { "include": { "file": "tables/sprint49/201712191701-seed-mensaje.json", "relativeToChangelogFile": true	} }
+    ]
+}

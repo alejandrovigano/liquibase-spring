@@ -1,0 +1,121 @@
+{ "databaseChangeLog": [
+  {
+    "changeSet": {
+      "id": "1513713269513-1",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              }]
+            ,
+            "schemaName": "dbo",
+            "tableName": "resolutor_transaccion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513713269513-2",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__resoluto__3213E83F1134C368",
+            "schemaName": "dbo",
+            "tableName": "resolutor_transaccion"
+          }
+        }]
+      
+    }
+  },
+  
+  {
+    "changeSet": {
+      "id": "1513713269513-3",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addUniqueConstraint": {
+            "columnNames": "code",
+            "constraintName": "UK_lfe6jnknj6fxr0msb7cji6xxc",
+            "schemaName": "dbo",
+            "tableName": "resolutor_transaccion"
+          }
+        }]
+      
+    }
+  }
+]}
