@@ -6,6 +6,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import ar.com.incluit.domain.visitor.Visitor;
+
 @Entity
 @Table(name = "Tipo")
 public class Tipo extends AbstractParameter {
@@ -35,6 +37,11 @@ public class Tipo extends AbstractParameter {
 	@Override
 	public AbstractGrupo getAbstractGrupoTipo() {
 		return getGrupoTipo();
+	}
+	
+	@Override
+	public void accept(Visitor visitor) {
+		visitor.visit(this);
 	}
 
 }

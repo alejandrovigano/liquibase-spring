@@ -6,11 +6,14 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.function.Function;
 
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import ar.com.incluit.domain.AbstractGrupo;
 import ar.com.incluit.domain.AbstractParameter;
+import ar.com.incluit.domain.NoGrupo;
 import ar.com.incluit.domain.Tipo;
 import ar.com.incluit.liqui.ChangeLogJsonBuilder;
 import ar.com.incluit.liqui.InsertBuilder;
@@ -29,17 +33,27 @@ import ar.com.incluit.liqui.changelog.LiquiChangelog;
 import ar.com.incluit.repository.EstadoRepository;
 import ar.com.incluit.repository.GrupoEstadoRepository;
 import ar.com.incluit.repository.GrupoTipoRepository;
+import ar.com.incluit.repository.MensajeRepository;
+import ar.com.incluit.repository.ResolutorTransactionRepository;
 import ar.com.incluit.repository.TipoRepository;
 
 @RestController
 @RequestMapping("/build")
 public class LiquiController {
 
+	private static Logger LOGGER = LoggerFactory.getLogger(LiquiController.class);
+
 	@Autowired
 	private TipoRepository tipoRepository;
 
 	@Autowired
 	private EstadoRepository estadoRepository;
+
+	@Autowired
+	private MensajeRepository mensajeRepository;
+
+	@Autowired
+	private ResolutorTransactionRepository resolutorTransactionRepository;
 
 	@Autowired
 	private GrupoTipoRepository grupoTipoRepository;
@@ -76,19 +90,35 @@ public class LiquiController {
 	@GetMapping("/tipo")
 	public String buildJsonGroupedTipo() throws Exception {
 		Iterable<? extends AbstractGrupo> grupos = grupoTipoRepository.findAll();
-		buildJsonAndWriteFile(grupos, tipoRepository::findByGrupoTipoIdGrupoTipo,"tipo");
+		buildJsonAndWriteFile(grupos, tipoRepository::findByGrupoTipoIdGrupoTipo, "tipo");
 		return "ok";
 	}
 
 	@GetMapping("/estado")
 	public String buildJsonGroupedEstado() throws Exception {
 		Iterable<? extends AbstractGrupo> grupos = grupoEstadoRepository.findAll();
-		buildJsonAndWriteFile(grupos, estadoRepository::findByGrupoEstadoIdGrupoEstado,"estado");
+		buildJsonAndWriteFile(grupos, estadoRepository::findByGrupoEstadoIdGrupoEstado, "estado");
+		return "ok";
+	}
+
+	@GetMapping("/mensaje")
+	public String buildJsonGroupedMensaje() throws Exception {
+		LOGGER.info("conteo " + mensajeRepository.count());
+		buildJsonAndWriteFile(Collections.singletonList(new NoGrupo("mensaje")), x -> mensajeRepository.findAll(),
+				"mensaje");
+		return "ok";
+	}
+
+	@GetMapping("/resolutor")
+	public String buildJsonGroupedResolutor() throws Exception {
+		buildJsonAndWriteFile(Collections.singletonList(new NoGrupo("resolutor")),
+				x -> resolutorTransactionRepository.findAll(), "resolutor");
 		return "ok";
 	}
 
 	private void buildJsonAndWriteFile(Iterable<? extends AbstractGrupo> grupos,
-			Function<Integer, List<? extends AbstractParameter>> findByGrupo, String prefix) throws Exception, IOException {
+			Function<Integer, List<? extends AbstractParameter>> findByGrupo, String prefix)
+			throws Exception, IOException {
 		List<String> files = new ArrayList<>();
 
 		for (AbstractGrupo grupoTipo : grupos) {

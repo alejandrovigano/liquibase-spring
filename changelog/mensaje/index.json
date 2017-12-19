@@ -1,0 +1,10 @@
+{
+  "databaseChangeLog" : [ {
+    "comment" : "Comentario"
+  }, {
+    "include" : {
+      "file" : "insert/201712196710-seed-mensaje.json",
+      "relativeToChangelogFile" : true
+    }
+  } ]
+}

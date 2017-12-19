@@ -5,8 +5,10 @@ import java.util.Date;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Transient;
 
+import ar.com.incluit.domain.visitor.Visitable;
+
 @MappedSuperclass
-public abstract class AbstractParameter {
+public abstract class AbstractParameter implements Visitable{
 
 	private String codigo;
 	private String descripcion;

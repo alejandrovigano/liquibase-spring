@@ -1,0 +1,621 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171219202",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Visa"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "VISA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Amex"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "AMEX"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "First Data"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FD"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Pago Facil"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PF"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "4"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Rapipago"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "RP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "5"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Banelco"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-24 16:45:35"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "6"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Cybersource"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-12-31 11:39:39"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-12-31 11:39:39"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "7"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Decidir"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "DC"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-12-31 11:39:39"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-12-31 11:39:39"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "8"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Todo Pago"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "TP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-12-31 11:39:39"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-12-31 11:39:39"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "9"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "VU Security"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "VU"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-11-02 11:12:48"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-11-02 11:12:48"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "10"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Validacion LINK"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "LINK"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-06-27 18:35:40"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-06-27 18:35:40"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "resolutor",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "11"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Validaci\u00F3n Credim\u00E1s"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CREDIMAS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-07-12 17:15:25"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-07-12 17:15:25"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

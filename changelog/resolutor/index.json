@@ -1,0 +1,10 @@
+{
+  "databaseChangeLog" : [ {
+    "comment" : "Comentario"
+  }, {
+    "include" : {
+      "file" : "insert/201712192030-seed-resolutor.json",
+      "relativeToChangelogFile" : true
+    }
+  } ]
+}
