@@ -3,7 +3,7 @@
     "comment" : "Comentario"
   }, {
     "include" : {
-      "file" : "insert/201712196710-seed-mensaje.json",
+      "file" : "insert/201712197190-seed-mensaje.json",
       "relativeToChangelogFile" : true
     }
   } ]

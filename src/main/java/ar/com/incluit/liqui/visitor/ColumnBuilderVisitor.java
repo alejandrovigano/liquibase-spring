@@ -67,7 +67,7 @@ public class ColumnBuilderVisitor implements Visitor {
 
 	private void defaultColumnBuild(AbstractParameter parameter) {
 		columnas.add(obtenerColumna("id", index));
-		columnas.add(obtenerColumna("description", parameter.getDescripcion()));
+		columnas.add(obtenerColumna("description", parameter.getDescripcion() != null ? parameter.getDescripcion() : " "));
 		columnas.add(obtenerColumna("code", parameter.getCodigo()));
 		columnas.add(obtenerColumna("create_date", parameter.getFechaAlta()));
 		columnas.add(obtenerColumna("modify_date",

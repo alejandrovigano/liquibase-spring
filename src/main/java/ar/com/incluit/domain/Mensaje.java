@@ -9,7 +9,7 @@ import javax.persistence.Table;
 import ar.com.incluit.domain.visitor.Visitor;
 
 @Entity
-@Table(name = "mensaje")
+@Table(name = "mensajexx")
 @AttributeOverride(name = "codigo", column = @Column(name = "codigo_mensaje"))
 public class Mensaje extends AbstractParameter {
 
