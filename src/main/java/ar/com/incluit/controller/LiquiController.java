@@ -11,7 +11,12 @@ import java.util.Date;
 import java.util.List;
 import java.util.function.Function;
 
+import ar.com.incluit.liqui.*;
+import ar.com.incluit.liqui.changelog.Precondition;
+import ar.com.incluit.liqui.changelog.RollBack;
+import ar.com.incluit.repository.*;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.text.WordUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,18 +29,8 @@ import ar.com.incluit.domain.AbstractGrupo;
 import ar.com.incluit.domain.AbstractParameter;
 import ar.com.incluit.domain.NoGrupo;
 import ar.com.incluit.domain.Tipo;
-import ar.com.incluit.liqui.ChangeLogJsonBuilder;
-import ar.com.incluit.liqui.InsertBuilder;
-import ar.com.incluit.liqui.LiquiChangeLogBuilder;
-import ar.com.incluit.liqui.TableResolver;
 import ar.com.incluit.liqui.changelog.Insert;
 import ar.com.incluit.liqui.changelog.LiquiChangelog;
-import ar.com.incluit.repository.EstadoRepository;
-import ar.com.incluit.repository.GrupoEstadoRepository;
-import ar.com.incluit.repository.GrupoTipoRepository;
-import ar.com.incluit.repository.MensajeRepository;
-import ar.com.incluit.repository.ResolutorTransactionRepository;
-import ar.com.incluit.repository.TipoRepository;
 
 @RestController
 @RequestMapping("/build")
@@ -56,6 +51,12 @@ public class LiquiController {
 	private ResolutorTransactionRepository resolutorTransactionRepository;
 
 	@Autowired
+	private CicloFacturacionRepository cicloFacturacionRepository;
+
+	@Autowired
+	private CanalAdhesionRepository canalAdhesionRepository;
+
+	@Autowired
 	private GrupoTipoRepository grupoTipoRepository;
 
 	@Autowired
@@ -65,8 +66,14 @@ public class LiquiController {
 	private InsertBuilder insertBuilder;
 
 	@Autowired
+	private PreconditionBuilder preconditionBuilder;
+
+	@Autowired
 	private ChangeLogJsonBuilder jsonBuilder;
 
+	@Autowired
+	private RollbackBuilder rollbackBuilder;
+	
 	@Autowired
 	private TableResolver tableResolver;
 
@@ -79,12 +86,16 @@ public class LiquiController {
 	@Value("${subfolder}")
 	private String subfolder;
 
-	@GetMapping
-	public String buildJson() throws Exception {
-		List<Tipo> tipos = tipoRepository.findAll();
-		List<Insert> inserts = insertBuilder.buildInserts(tipos);
-		LiquiChangelog liqui = liquiChangeLogBuilder.buildLiquiInsertChangelog(inserts);
-		return jsonBuilder.buildChangeLogJson(liqui);
+	@GetMapping("/all")
+	public String buildAll() throws Exception {
+		buildJsonGroupedCanal();
+		buildJsonGroupedCiclo();
+		buildJsonGroupedEstado();
+		buildJsonGroupedMensaje();
+		buildJsonGroupedResolutor();
+		buildJsonGroupedTipo();
+
+		return "ok";
 	}
 
 	@GetMapping("/tipo")
@@ -116,16 +127,33 @@ public class LiquiController {
 		return "ok";
 	}
 
+	@GetMapping("/ciclo")
+	public String buildJsonGroupedCiclo() throws Exception {
+		buildJsonAndWriteFile(Collections.singletonList(new NoGrupo("ciclo")),
+				x -> cicloFacturacionRepository.findAll(), "ciclo");
+		return "ok";
+	}
+
+	@GetMapping("/canal")
+	public String buildJsonGroupedCanal() throws Exception {
+		buildJsonAndWriteFile(Collections.singletonList(new NoGrupo("canal")),
+				x -> canalAdhesionRepository.findAll(), "canal");
+		return "ok";
+	}
+
+
 	private void buildJsonAndWriteFile(Iterable<? extends AbstractGrupo> grupos,
 			Function<Integer, List<? extends AbstractParameter>> findByGrupo, String prefix)
 			throws Exception, IOException {
 		List<String> files = new ArrayList<>();
 
 		for (AbstractGrupo grupoTipo : grupos) {
-			List<? extends AbstractParameter> tipos = findByGrupo.apply(grupoTipo.getId());
+			List<? extends AbstractParameter> params = findByGrupo.apply(grupoTipo.getId());
 
-			List<Insert> inserts = insertBuilder.buildInserts(tipos);
-			LiquiChangelog liqui = liquiChangeLogBuilder.buildLiquiInsertChangelog(inserts);
+			List<Precondition> preconditiosn = preconditionBuilder.buildPreconditions(params);
+			List<RollBack> rollbacks = rollbackBuilder.buildRollBack(params);
+			List<Insert> inserts = insertBuilder.buildInserts(params);
+			LiquiChangelog liqui = liquiChangeLogBuilder.buildLiquiInsertChangelog(inserts, preconditiosn, rollbacks);
 
 			String filename = obtenerFilename(grupoTipo);
 			String filePath = prefix + "/" + subfolder + "/" + filename;
@@ -136,7 +164,7 @@ public class LiquiController {
 		}
 
 		LiquiChangelog liquiIndex = liquiChangeLogBuilder.buildFileIncludeChangelog(files);
-		writeToFile(liquiIndex, prefix + "/index.json");
+		writeToFile(liquiIndex, prefix + "/changelog-index.json");
 	}
 
 	private void writeToFile(LiquiChangelog liqui, String filename) throws Exception, IOException {
@@ -150,8 +178,12 @@ public class LiquiController {
 	}
 
 	private String obtenerFilename(AbstractGrupo grupoTipo) {
-		String date = new SimpleDateFormat("yyyyMMddS").format(new Date());
+		String date = new SimpleDateFormat("yyyyMMddHHmm").format(new Date());
 		date = StringUtils.rightPad(date, 12, "0");
-		return date + "-seed-" + tableResolver.obtenerTabla(grupoTipo) + ".json";
+		return date + "-Seed-" + toCamelCase(tableResolver.obtenerTabla(grupoTipo)) + ".json";
+	}
+
+	private String toCamelCase(String s) {
+		return WordUtils.capitalizeFully(s.replace("_", " ")).replace(" ", "_");
 	}
 }

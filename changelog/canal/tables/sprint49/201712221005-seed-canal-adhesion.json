@@ -1,0 +1,1395 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171222233",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Portal"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PORTAL"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Panel Back office"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PANEL_BACK_OFFICE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2014-11-13 16:23:09"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "3"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Embebido (ws)"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "EMBEBIDO_WS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-01-19 14:14:11"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-01-19 14:14:11"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "4"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Interconexion (w2w)"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "INTERCONEXION_W2W"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-01-19 14:14:11"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-01-19 14:14:11"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "5"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Panel w2w"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PANEL_W2W"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-09-07 15:16:16"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-09-07 15:16:16"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "6"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Formulario"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "FORMULARIO"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-09-07 15:17:15"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-09-07 15:17:15"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "7"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "mPOS"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MPOS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-09-07 15:18:30"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-09-07 15:18:30"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "valueBoolean" : false
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "8"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Mobile"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "MOBILE"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-09-07 15:19:05"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-09-07 15:19:05"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "9"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Batch"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BATCH"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-12-21 12:11:12"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-12-21 12:11:12"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "10"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "API"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "API"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-02-17 18:58:47"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-02-17 18:58:47"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "11"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "BVTP"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BVTP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-06-29 14:47:18"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-06-29 14:47:18"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "12"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "CRM"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CRM"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-12-29 16:50:55"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-12-29 16:50:55"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "13"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Bots"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BOTS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2016-12-29 16:50:55"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2016-12-29 16:50:55"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Bajo"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "14"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "PCI"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PCI"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-03-03 16:58:57"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-03-03 16:58:57"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "15"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "COMEDOR"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "COMEDOR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-04-12 17:20:25"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-04-12 17:20:25"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "16"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "YPFQR"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "YPFQR"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-05-04 18:03:19"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-05-04 18:03:19"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "17"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "YPFServipass"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "YPFSERVIPASS"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-07-11 15:06:32"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-07-11 15:06:32"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "18"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "PMC"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PMC"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-07-28 12:53:18"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-07-28 12:53:18"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "19"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "Billetera"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "BILLETERA"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-09-26 18:23:52"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-09-26 18:23:52"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "valueBoolean" : false
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "20"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "EDP"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "EDP"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-10-30 20:02:15"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-10-30 20:02:15"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "valueBoolean" : false
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "canal_adhesion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "21"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : "PreAccount"
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "PREACCOUNT"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2017-10-20 11:30:19"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2017-10-20 11:30:19"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "nivel_riesgo",
+              "value" : "Alto"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_promocion",
+              "value" : "null"
+            }
+          }, {
+            "column" : {
+              "name" : "permite_devolucion",
+              "value" : "null"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

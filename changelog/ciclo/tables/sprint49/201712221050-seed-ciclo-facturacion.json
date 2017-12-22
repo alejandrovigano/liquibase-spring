@@ -1,0 +1,151 @@
+{
+  "databaseChangeLog" : [ {
+    "changeSet" : {
+      "id" : "20171222203",
+      "author" : "incluit",
+      "changes" : [ {
+        "insert" : {
+          "tableName" : "ciclo_facturacion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : " "
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CICLO_1"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-01-22 19:03:18"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-10 10:52:01"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "dia_de_ejecucion",
+              "value" : "18"
+            }
+          }, {
+            "column" : {
+              "name" : "dia_inicio",
+              "value" : "1"
+            }
+          }, {
+            "column" : {
+              "name" : "dia_tope_incluido",
+              "value" : "15"
+            }
+          }, {
+            "column" : {
+              "name" : "meses_desplazamiento",
+              "value" : "0"
+            }
+          } ]
+        }
+      }, {
+        "insert" : {
+          "tableName" : "ciclo_facturacion",
+          "schemaName" : "dbo",
+          "columns" : [ {
+            "column" : {
+              "name" : "id",
+              "value" : "2"
+            }
+          }, {
+            "column" : {
+              "name" : "description",
+              "value" : " "
+            }
+          }, {
+            "column" : {
+              "name" : "code",
+              "value" : "CICLO_2"
+            }
+          }, {
+            "column" : {
+              "name" : "create_date",
+              "value" : "2015-01-22 19:03:18"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_date",
+              "value" : "2015-02-10 10:52:01"
+            }
+          }, {
+            "column" : {
+              "name" : "create_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "modify_user",
+              "value" : "Script"
+            }
+          }, {
+            "column" : {
+              "name" : "version",
+              "value" : "0"
+            }
+          }, {
+            "column" : {
+              "name" : "is_active",
+              "valueBoolean" : true
+            }
+          }, {
+            "column" : {
+              "name" : "dia_de_ejecucion",
+              "value" : "24"
+            }
+          }, {
+            "column" : {
+              "name" : "dia_inicio",
+              "value" : "16"
+            }
+          }, {
+            "column" : {
+              "name" : "dia_tope_incluido",
+              "value" : "30"
+            }
+          }, {
+            "column" : {
+              "name" : "meses_desplazamiento",
+              "value" : "0"
+            }
+          } ]
+        }
+      } ]
+    }
+  } ]
+}

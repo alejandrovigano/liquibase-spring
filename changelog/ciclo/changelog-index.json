@@ -1,0 +1,7 @@
+{
+    "databaseChangeLog": [
+        {"comment" : "Sprint 49 - Tablas Ciclo Facturacion"},
+        { "include": { "file": "tables/sprint49/201712221040-agregado-de-tabla-ciclo-facturacion.json", "relativeToChangelogFile": true	} },
+        { "include": { "file": "tables/sprint49/201712221050-seed-ciclo-facturacion.json", "relativeToChangelogFile": true	} }
+    ]
+}

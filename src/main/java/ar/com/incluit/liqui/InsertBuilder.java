@@ -22,12 +22,12 @@ public class InsertBuilder {
 	@Value("${schema}")
 	private String schemaName;
 
-	public List<Insert> buildInserts(List<? extends AbstractParameter> tipos) {
+	public List<Insert> buildInserts(List<? extends AbstractParameter> parameters) {
 
 		List<Insert> inserts = new ArrayList<>();
 
 		int i = 0;
-		for (AbstractParameter tipo : tipos) {
+		for (AbstractParameter tipo : parameters) {
 			Insert insert = new Insert();
 			insert.setSchemaName(schemaName);
 			insert.setTableName(tableResolver.obtenerTabla(tipo.getAbstractGrupoTipo()));

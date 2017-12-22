@@ -1,0 +1,164 @@
+{ "databaseChangeLog": [
+  {
+    "changeSet": {
+      "id": "1513948709711-1",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "dia_de_ejecucion",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "dia_inicio",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "dia_tope_incluido",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "meses_desplazamiento",
+                  "type": "int"
+                }
+              }]
+          ,
+            "schemaName": "dbo",
+            "tableName": "ciclo_facturacion"
+          }
+        }]
+
+    }
+  },
+
+  {
+    "changeSet": {
+      "id": "1513948709711-2",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__ciclo_fa__3213E83F278C442A",
+            "schemaName": "dbo",
+            "tableName": "ciclo_facturacion"
+          }
+        }]
+
+    }
+  },
+
+  {
+    "changeSet": {
+      "id": "1513948709711-3",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createIndex": {
+            "columns": [
+              {
+                "column": {
+                  "name": "code"
+                }
+              }]
+          ,
+            "indexName": "UK_recaeoa2ee233awwq8s8eo4ss",
+            "schemaName": "dbo",
+            "tableName": "ciclo_facturacion",
+            "unique": true
+          }
+        }]
+
+    }
+  }
+]}

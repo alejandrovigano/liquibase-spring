@@ -5,13 +5,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import ar.com.incluit.domain.*;
 import org.apache.commons.lang3.StringEscapeUtils;
 
-import ar.com.incluit.domain.AbstractParameter;
-import ar.com.incluit.domain.Estado;
-import ar.com.incluit.domain.Mensaje;
-import ar.com.incluit.domain.ResolutorTransaction;
-import ar.com.incluit.domain.Tipo;
 import ar.com.incluit.domain.visitor.Visitor;
 import ar.com.incluit.liqui.changelog.Column;
 import ar.com.incluit.liqui.changelog.ValueColumn;
@@ -34,17 +30,78 @@ public class ColumnBuilderVisitor implements Visitor {
 
 	@Override
 	public void visit(Estado estado) {
+		index = estado.getIdEstado();
 		defaultColumnBuild(estado);
 	}
 
 	@Override
 	public void visit(Tipo tipo) {
+		index = tipo.getIdTipo();
 		defaultColumnBuild(tipo);
 	}
 
 	@Override
 	public void visit(Mensaje mensaje) {
+		index = mensaje.getIdMensaje();
 		mensajeColumnBuild(mensaje);
+	}
+
+	@Override
+	public void visit(CicloFacturacion cicloFacturacion) {
+		index = cicloFacturacion.getIdCicloFacturacion();
+		cicloColumnBuild(cicloFacturacion);
+	}
+
+	@Override
+	public void visit(CanalAdhesion canalAdhesion) {
+		index = canalAdhesion.getIdCanal();
+		canalColumnBuild(canalAdhesion);
+	}
+
+	@Override
+	public void visit(ResolutorTransaction resolutor) {
+		index = resolutor.getIdResolutor();
+		defaultColumnBuild(resolutor);
+	}
+
+	private void canalColumnBuild(CanalAdhesion canalAdhesion) {
+		index = canalAdhesion.getIdCanal();
+		String code = canalAdhesion.getDescripcion().toUpperCase()
+				.replace(" ", "_")
+				.replace("(", "")
+				.replace(")", "");
+
+		canalAdhesion.setCodigo(code);
+
+		defaultColumnBuild(canalAdhesion);
+
+		columnas.add(obtenerColumna("nivel_riesgo", canalAdhesion.getNivelRiesgo()));
+		if(canalAdhesion.getPermitePromocion() != null){
+			columnas.add(obtenerColumna("permite_promocion", canalAdhesion.getPermitePromocion()));
+		}else{
+			columnas.add(obtenerColumna("permite_promocion", "null"));
+		}
+
+		if(canalAdhesion.getPermiteDevolucion() != null){
+			columnas.add(obtenerColumna("permite_devolucion", canalAdhesion.getPermiteDevolucion()));
+		}else{
+			columnas.add(obtenerColumna("permite_devolucion", "null"));
+		}
+
+	}
+
+	private void cicloColumnBuild(CicloFacturacion cicloFacturacion) {
+		index = cicloFacturacion.getIdCicloFacturacion();
+		cicloFacturacion.setCodigo("CICLO_" + index);
+
+		defaultColumnBuild(cicloFacturacion);
+
+		columnas.add(obtenerColumna("dia_de_ejecucion", cicloFacturacion.getDiaDeEjecucion()));
+		columnas.add(obtenerColumna("dia_inicio", cicloFacturacion.getDiaInicio()));
+		columnas.add(obtenerColumna("dia_tope_incluido", cicloFacturacion.getDiaTopeIncluido()));
+
+		columnas.add(obtenerColumna("meses_desplazamiento", cicloFacturacion.getMesesDesplazamiento()));
+
 	}
 
 	private void mensajeColumnBuild(Mensaje mensaje) {
@@ -58,11 +115,6 @@ public class ColumnBuilderVisitor implements Visitor {
 		}else {
 			columnas.add(obtenerColumna("flag_reintento_tx", "null"));
 		}
-	}
-
-	@Override
-	public void visit(ResolutorTransaction resolutor) {
-		defaultColumnBuild(resolutor);
 	}
 
 	private void defaultColumnBuild(AbstractParameter parameter) {

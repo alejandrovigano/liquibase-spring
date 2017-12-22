@@ -1,15 +1,14 @@
 package ar.com.incluit.domain.visitor;
 
-import ar.com.incluit.domain.Estado;
-import ar.com.incluit.domain.Mensaje;
-import ar.com.incluit.domain.ResolutorTransaction;
-import ar.com.incluit.domain.Tipo;
+import ar.com.incluit.domain.*;
 
 public interface Visitor {
 
 	void visit(Estado estado);
-	void visit(Tipo estado);
-	void visit(Mensaje estado);
-	void visit(ResolutorTransaction estado);
-	
+	void visit(Tipo tipo);
+	void visit(Mensaje mensaje);
+	void visit(ResolutorTransaction resolutorTransaction);
+	void visit(CicloFacturacion cicloFacturacion);
+	void visit(CanalAdhesion canalAdhesion);
+
 }

@@ -1,0 +1,7 @@
+{
+    "databaseChangeLog": [
+        {"comment" : "Sprint 49 - Tablas Canal Adhesion"},
+        { "include": { "file": "tables/sprint49/201712221000-agregado-de-tabla-canal-adhesion.json", "relativeToChangelogFile": true	} },
+        { "include": { "file": "tables/sprint49/201712221005-seed-canal-adhesion.json", "relativeToChangelogFile": true	} }
+    ]
+}

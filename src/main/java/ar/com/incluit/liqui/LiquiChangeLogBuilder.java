@@ -5,15 +5,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import ar.com.incluit.liqui.changelog.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
-import ar.com.incluit.liqui.changelog.Change;
-import ar.com.incluit.liqui.changelog.ChangeLog;
-import ar.com.incluit.liqui.changelog.ChangeSet;
-import ar.com.incluit.liqui.changelog.Include;
-import ar.com.incluit.liqui.changelog.Insert;
-import ar.com.incluit.liqui.changelog.LiquiChangelog;
 
 @Component
 public class LiquiChangeLogBuilder {
@@ -24,7 +18,7 @@ public class LiquiChangeLogBuilder {
 	@Value("${comment.master}")
 	private String comment;
 
-	public LiquiChangelog buildLiquiInsertChangelog(List<Insert> inserts) {
+	public LiquiChangelog buildLiquiInsertChangelog(List<Insert> inserts, List<Precondition> preconditiosn, List<RollBack> rollbacks) {
 
 		LiquiChangelog liquiChangelog = new LiquiChangelog();
 
@@ -41,6 +35,8 @@ public class LiquiChangeLogBuilder {
 			change.setInsert(insert);
 			changes.add(change);
 		}
+		changeSet.setPreConditions(preconditiosn);
+		changeSet.setRollback(rollbacks);
 		changeSet.setChanges(changes);
 		log.setChangeSet(changeSet);
 

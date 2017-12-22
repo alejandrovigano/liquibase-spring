@@ -1,0 +1,150 @@
+{ "databaseChangeLog": [
+  {
+    "changeSet": {
+      "id": "1513948668780-1",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createTable": {
+            "columns": [
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "id",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "code",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "create_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "description",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "is_active",
+                  "type": "bit"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_date",
+                  "type": "datetime2(7)"
+                }
+              },
+              {
+                "column": {
+                  "name": "modify_user",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "version",
+                  "type": "bigint"
+                }
+              },
+              {
+                "column": {
+                  "constraints": {
+                    "nullable": false
+                  },
+                  "name": "nivel_riesgo",
+                  "type": "varchar(255)"
+                }
+              },
+              {
+                "column": {
+                  "name": "permite_devolucion",
+                  "type": "int"
+                }
+              },
+              {
+                "column": {
+                  "name": "permite_promocion",
+                  "type": "int"
+                }
+              }]
+          ,
+            "schemaName": "dbo",
+            "tableName": "canal_adhesion"
+          }
+        }]
+
+    }
+  },
+
+  {
+    "changeSet": {
+      "id": "1513948668780-2",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "addPrimaryKey": {
+            "columnNames": "id",
+            "constraintName": "PK__canal_ad__3213E83F0738F7BE",
+            "schemaName": "dbo",
+            "tableName": "canal_adhesion"
+          }
+        }]
+
+    }
+  },
+
+  {
+    "changeSet": {
+      "id": "1513948668780-3",
+      "author": "avigano (generated)",
+      "objectQuotingStrategy": "LEGACY",
+      "changes": [
+        {
+          "createIndex": {
+            "columns": [
+              {
+                "column": {
+                  "name": "code"
+                }
+              }]
+          ,
+            "indexName": "UK_ei95gl4yfai7yvqjwbu0gniye",
+            "schemaName": "dbo",
+            "tableName": "canal_adhesion",
+            "unique": true
+          }
+        }]
+
+    }
+  }
+
+]}

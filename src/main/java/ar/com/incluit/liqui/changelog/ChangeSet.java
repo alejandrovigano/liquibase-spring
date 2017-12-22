@@ -1,12 +1,31 @@
 package ar.com.incluit.liqui.changelog;
 
+
 import java.util.List;
 
 public class ChangeSet {
 
 	private String id;
 	private String author;
+	private List<Precondition> preConditions;
 	private List<Change> changes;
+	private List<RollBack> rollback;
+
+	public List<Precondition> getPreConditions() {
+		return preConditions;
+	}
+
+	public void setPreConditions(List<Precondition> preConditions) {
+		this.preConditions = preConditions;
+	}
+
+	public List<RollBack> getRollback() {
+		return rollback;
+	}
+
+	public void setRollback(List<RollBack> rollback) {
+		this.rollback = rollback;
+	}
 
 	public String getId() {
 		return id;
